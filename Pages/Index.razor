@@ -1,0 +1,210 @@
+﻿@page "/"
+@page "/{language}"
+@inject HttpClient Http
+
+@if(DataIsReady) 
+{ 
+<div class="language">   
+     @((MarkupString)GeneralData["Languages"])
+</div>
+<section class="main">
+		<h1 class="headline">@GeneralData["Headline"]</h1>
+		<div id="ms-edge-wrapper">
+            <table>
+				<colgroup>
+					<col class="group-col">
+					<col class="aspect-col">
+					<col class="feature-col">
+					<col class="service-col">
+					<col class="service-col">
+					<col class="service-col">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>@GeneralData["Group"]</th>
+						<th>@GeneralData["Aspect"]</th>
+						<th>@GeneralData["Feature"]</th>
+						<th>
+							<span class="telegram-icon">Telegram</span>
+						</th>
+						<th>
+							<span class="viber-icon">Viber</span>
+						</th>
+						<th>
+							<span class="whatsapp-icon">WhatsApp</span>
+						</th>
+					</tr>
+				</thead>
+                <tbody>
+                    @{string score = string.Empty;
+                      MarkupString value = new MarkupString();}
+                    @foreach(var group in ComparisonData)
+                    {                        
+                        int groupRowspan = GetRowCount(group);
+                        bool groupWasAdded = false;
+
+                        foreach(var aspect in group.Aspects)
+                        {
+                            int aspectRowspan = aspect.Features.Count();
+                            bool aspectWasAdded = false;
+
+                            foreach(var feature in aspect.Features)
+                            {
+                                <tr>
+                                    @if(!groupWasAdded)
+                                    {
+                                        <td rowspan="@groupRowspan">
+                                            <h3 class="group-text">@group.GroupName</h3>
+                                        </td>
+                                    }
+
+                                    @if(!aspectWasAdded)
+                                    {
+                                        <td rowspan="@aspectRowspan">
+                                            <h4 class="aspect-text">@aspect.AspectName</h4>
+                                        </td>
+                                    }
+                                    <td>
+                                        @feature.FeatureName.ProcessMarkdown()
+                                    </td>
+
+                                    @if(@feature.Values.Telegram != null) 
+                                    {
+                                        score = @feature.Values.Telegram.GetMessengerScore();
+                                        value = @feature.Values.Telegram.GetMessengerValue();
+                                        <td class="@score">@value</td>
+                                    } 
+                                    else if(@aspect.Values.Telegram != null && !aspectWasAdded)
+                                    {
+                                        score = @aspect.Values.Telegram.GetMessengerScore();
+                                        value = @aspect.Values.Telegram.GetMessengerValue();
+                                        <td class="@score" rowspan="@aspectRowspan">@value</td>
+                                    }
+
+                                    @if(@feature.Values.Viber != null) 
+                                    {
+                                        score = @feature.Values.Viber.GetMessengerScore();
+                                        value = @feature.Values.Viber.GetMessengerValue();
+                                        <td class="@score">@value</td>
+                                    } 
+                                    else if(@aspect.Values.Viber != null && !aspectWasAdded)
+                                    {
+                                        score = @aspect.Values.Viber.GetMessengerScore();
+                                        value = @aspect.Values.Viber.GetMessengerValue();
+                                        <td class="@score" rowspan="@aspectRowspan">@value</td>
+                                    }
+
+                                    @if(@feature.Values.WhatsApp != null) 
+                                    {
+                                        score = @feature.Values.WhatsApp.GetMessengerScore();
+                                        value = @feature.Values.WhatsApp.GetMessengerValue();
+                                        <td class="@score">@value</td>
+                                    } 
+                                    else if(@aspect.Values.WhatsApp != null && !aspectWasAdded)
+                                    {
+                                        score = @aspect.Values.WhatsApp.GetMessengerScore();
+                                        value = @aspect.Values.WhatsApp.GetMessengerValue();
+                                        <td class="@score" rowspan="@aspectRowspan">@value</td>
+                                    }
+
+                                    @{groupWasAdded = true;}
+                                    @{aspectWasAdded = true;}
+                                </tr>
+                            }
+                        }                        
+                    }                      
+                </tbody>
+            </table>
+        </div>
+        <p class="updated-date">
+            @LastModified  <br> <br>
+            @((MarkupString)GeneralData["Author"].ProcessMarkdown())
+		</p>
+</section>
+}
+
+@code 
+{
+    [Parameter]
+    public string Language { get; set; }
+    private string SelectedLanguage { get; set; }
+    private string LastModified { get; set; }
+    private Dictionary<string, string> GeneralData { get; set; }
+    private List<Group> ComparisonData { get; set; }
+    private bool DataIsReady { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        DataIsReady = false;
+        await RefreshContent();
+    }
+
+    protected async Task RefreshContent()
+    {
+        List<string> allowedLanguages = new List<string> { "en", "ru", "pt", "ua" };
+        SelectedLanguage =
+            (string.IsNullOrEmpty(Language) || !allowedLanguages.Contains(Language))
+            ? "ua" : Language;
+
+        var response = await Http.GetAsync($"data/{SelectedLanguage}/comparison-data.json");
+        DateTime lastModifiedDate = response.Content.Headers.LastModified.Value.DateTime;
+        GeneralData = await Http.GetJsonAsync<Dictionary<string, string>>($"data/{SelectedLanguage}/general-data.json");
+        GeneralData["Languages"] = GetLanguages(allowedLanguages);
+        LastModified = GetLastModified(SelectedLanguage, lastModifiedDate);
+        response.EnsureSuccessStatusCode();
+        var json = await response.Content.ReadAsStringAsync();
+        ComparisonData = JsonSerializer.Deserialize<List<Group>>(json);
+        DataIsReady = true;
+    }
+
+    public string GetLanguages(List<string> allowedLanguages)
+    {
+        var languagesHtml = string.Empty;
+
+        foreach (var l in allowedLanguages)
+            if (l == SelectedLanguage)
+            {
+                languagesHtml += $"<h4>{l.ToUpper()}</h4>\n";
+            }
+            else
+            {
+
+                languagesHtml += $"<a href=\"/{l}\">{l.ToUpper()}</a>\n";
+            }
+
+        return languagesHtml;
+    }
+
+    public string GetLastModified(string language, DateTime lastModifiedDate)
+    {
+        CultureInfo ci;
+
+        var textPrefix = GeneralData["Updated"];
+
+        switch (language)
+        {
+            case "en":
+                ci = new CultureInfo("en-US");
+                return textPrefix + lastModifiedDate.ToString(@"d \o\f MMMM, yyyy", ci);
+            case "pt":
+                ci = new CultureInfo("pt-BR");
+                return textPrefix + lastModifiedDate.ToString(@"d \d\e MMMM \d\e yyyy", ci);
+            case "ru":
+                ci = new CultureInfo("ru-RU");
+                return textPrefix + lastModifiedDate.ToString(@"d MMMM yyyy \г.", ci);
+            default:
+                ci = new CultureInfo("uk-UA");
+                return textPrefix + lastModifiedDate.ToString(@"d MMMM yyyy \р.", ci);
+        }
+    }
+
+    public int GetRowCount(Group group) 
+    {
+        int rowCount = 0;
+
+        foreach(var aspect in group.Aspects)
+            rowCount += aspect.Features.Count();
+
+        return rowCount;
+    }
+}
