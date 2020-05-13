@@ -1,1 +1,1 @@
-# MCNext
+# MCTest
