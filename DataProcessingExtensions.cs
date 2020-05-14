@@ -9,6 +9,9 @@ namespace MessengerComparison
     {
         public static MarkupString ProcessMarkdown(this string s)
         {
+            if(!s.Contains("](") && !s.Contains("  \n"))
+                return (MarkupString)s;
+
             var result = Markdown.ToHtml(s);
 
             if (result.StartsWith("<p>"))
@@ -18,6 +21,24 @@ namespace MessengerComparison
             }
 
             return (MarkupString)result;
+        }
+
+        public static (string, MarkupString) GetScoreValue(this string s) 
+        {
+            var array = s.Split('|');
+
+            if(array.Length == 2) 
+            {
+                return (array[0], array[1].ProcessMarkdown());
+            }
+            else if(array.Length == 1)
+            {
+                return (string.Empty, array[0].ProcessMarkdown());
+            }
+            else 
+            {
+                return (array[0], s.Remove(0, array[0].Length + 1).ProcessMarkdown());
+            }
         }
 
         public static string GetMessengerScore(this string s)

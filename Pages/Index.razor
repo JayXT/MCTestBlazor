@@ -2,8 +2,8 @@
 @page "/{language}"
 @inject HttpClient Http
 
-@if(DataIsReady) 
-{ 
+@if(GeneralData != null) 
+{
 <div class="language">   
      @((MarkupString)GeneralData["Languages"])
 </div>
@@ -36,9 +36,12 @@
 					</tr>
 				</thead>
                 <tbody>
-                    @{string score = string.Empty;
-                      MarkupString value = new MarkupString();}
-                    @foreach(var group in ComparisonData)
+                @if(ComparisonData != null) 
+                {
+                    string score = string.Empty;
+                    MarkupString value = new MarkupString();
+
+                    foreach(var group in ComparisonData)
                     {                        
                         int groupRowspan = GetRowCount(group);
                         bool groupWasAdded = false;
@@ -70,40 +73,34 @@
 
                                     @if(@feature.Values.Telegram != null) 
                                     {
-                                        score = @feature.Values.Telegram.GetMessengerScore();
-                                        value = @feature.Values.Telegram.GetMessengerValue();
+                                        (score, value) =  @feature.Values.Telegram.GetScoreValue();
                                         <td class="@score">@value</td>
                                     } 
                                     else if(@aspect.Values.Telegram != null && !aspectWasAdded)
                                     {
-                                        score = @aspect.Values.Telegram.GetMessengerScore();
-                                        value = @aspect.Values.Telegram.GetMessengerValue();
+                                        (score, value) =  @aspect.Values.Telegram.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
                                     }
 
                                     @if(@feature.Values.Viber != null) 
                                     {
-                                        score = @feature.Values.Viber.GetMessengerScore();
-                                        value = @feature.Values.Viber.GetMessengerValue();
+                                        (score, value) = @feature.Values.Viber.GetScoreValue();
                                         <td class="@score">@value</td>
                                     } 
                                     else if(@aspect.Values.Viber != null && !aspectWasAdded)
                                     {
-                                        score = @aspect.Values.Viber.GetMessengerScore();
-                                        value = @aspect.Values.Viber.GetMessengerValue();
+                                        (score, value) = @aspect.Values.Viber.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
                                     }
 
                                     @if(@feature.Values.WhatsApp != null) 
                                     {
-                                        score = @feature.Values.WhatsApp.GetMessengerScore();
-                                        value = @feature.Values.WhatsApp.GetMessengerValue();
+                                        (score, value) = @feature.Values.WhatsApp.GetScoreValue();
                                         <td class="@score">@value</td>
                                     } 
                                     else if(@aspect.Values.WhatsApp != null && !aspectWasAdded)
                                     {
-                                        score = @aspect.Values.WhatsApp.GetMessengerScore();
-                                        value = @aspect.Values.WhatsApp.GetMessengerValue();
+                                        (score, value) = @aspect.Values.WhatsApp.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
                                     }
 
@@ -112,12 +109,13 @@
                                 </tr>
                             }
                         }                        
-                    }                      
+                    }   
+                }                                       
                 </tbody>
             </table>
         </div>
         <p class="updated-date">
-            @LastModified  <br> <br>
+            @GeneralData["LastModified"]  <br> <br>
             @((MarkupString)GeneralData["Author"].ProcessMarkdown())
 		</p>
 </section>
@@ -127,42 +125,38 @@
 {
     [Parameter]
     public string Language { get; set; }
-    private string SelectedLanguage { get; set; }
-    private string LastModified { get; set; }
     private Dictionary<string, string> GeneralData { get; set; }
     private List<Group> ComparisonData { get; set; }
-    private bool DataIsReady { get; set; }
 
     protected override async Task OnParametersSetAsync()
     {
-        DataIsReady = false;
         await RefreshContent();
     }
 
     protected async Task RefreshContent()
     {
         List<string> allowedLanguages = new List<string> { "en", "ru", "pt", "ua" };
-        SelectedLanguage =
+        var selectedLanguage =
             (string.IsNullOrEmpty(Language) || !allowedLanguages.Contains(Language))
             ? "ua" : Language;
 
-        var response = await Http.GetAsync($"data/{SelectedLanguage}/comparison-data.json");
-        DateTime lastModifiedDate = response.Content.Headers.LastModified.Value.DateTime;
-        GeneralData = await Http.GetJsonAsync<Dictionary<string, string>>($"data/{SelectedLanguage}/general-data.json");
-        GeneralData["Languages"] = GetLanguages(allowedLanguages);
-        LastModified = GetLastModified(SelectedLanguage, lastModifiedDate);
-        response.EnsureSuccessStatusCode();
-        var json = await response.Content.ReadAsStringAsync();
-        ComparisonData = JsonSerializer.Deserialize<List<Group>>(json);
-        DataIsReady = true;
+        var comparisonDataResponse = await Http.GetAsync($"data/{selectedLanguage}/comparison-data.json");
+        DateTime lastModifiedDate = comparisonDataResponse.Content.Headers.LastModified.Value.DateTime;
+
+        GeneralData = await Http.GetJsonAsync<Dictionary<string, string>>($"data/{selectedLanguage}/general-data.json");
+        GeneralData["Languages"] = GetLanguages(allowedLanguages, selectedLanguage);
+        GeneralData["LastModified"] = GetLastModified(selectedLanguage, lastModifiedDate);
+        
+        var comparisonJson = await comparisonDataResponse.Content.ReadAsStringAsync();
+        ComparisonData = JsonSerializer.Deserialize<List<Group>>(comparisonJson);
     }
 
-    public string GetLanguages(List<string> allowedLanguages)
+    public string GetLanguages(List<string> allowedLanguages, string selectedLanguage)
     {
         var languagesHtml = string.Empty;
 
         foreach (var l in allowedLanguages)
-            if (l == SelectedLanguage)
+            if (l == selectedLanguage)
             {
                 languagesHtml += $"<h4>{l.ToUpper()}</h4>\n";
             }
@@ -198,11 +192,11 @@
         }
     }
 
-    public int GetRowCount(Group group) 
+    public int GetRowCount(Group group)
     {
         int rowCount = 0;
 
-        foreach(var aspect in group.Aspects)
+        foreach (var aspect in group.Aspects)
             rowCount += aspect.Features.Count();
 
         return rowCount;
