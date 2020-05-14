@@ -1,18 +1,16 @@
-using Markdig;
+using CommonMark;
 using Microsoft.AspNetCore.Components;
-using System.Collections.Generic;
-
 
 namespace MessengerComparison
 {
     public static class DataProcessingExtensions
     {
-        public static MarkupString ProcessMarkdown(this string s)
+        public static MarkupString ToHtml(this string s)
         {
             if(!s.Contains("](") && !s.Contains("  \n"))
                 return (MarkupString)s;
 
-            var result = Markdown.ToHtml(s);
+            var result = CommonMarkConverter.Convert(s);
 
             if (result.StartsWith("<p>"))
             {
@@ -29,40 +27,16 @@ namespace MessengerComparison
 
             if(array.Length == 2) 
             {
-                return (array[0], array[1].ProcessMarkdown());
+                return (array[0], array[1].ToHtml());
             }
             else if(array.Length == 1)
             {
-                return (string.Empty, array[0].ProcessMarkdown());
+                return (string.Empty, array[0].ToHtml());
             }
             else 
             {
-                return (array[0], s.Remove(0, array[0].Length + 1).ProcessMarkdown());
+                return (array[0], s.Remove(0, array[0].Length + 1).ToHtml());
             }
-        }
-
-        public static string GetMessengerScore(this string s)
-        {
-            var array = s.Split('|');
-            return array.Length > 1 ? array[0] : string.Empty;
-        }
-
-        public static MarkupString GetMessengerValue(this string s)
-        {
-            var array = s.Split('|');
-
-            if (array.Length == 2)
-            {
-            
-                return array[1].ProcessMarkdown();
-            }
-            else if(array.Length > 2) 
-            {
-                int index = s.IndexOf(array[0] + '|');
-                return s.Remove(index, array[0].Length + 1).ProcessMarkdown();
-            }
-
-            return s.ProcessMarkdown();            
         }
         
     }

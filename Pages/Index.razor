@@ -68,7 +68,7 @@
                                         </td>
                                     }
                                     <td>
-                                        @feature.FeatureName.ProcessMarkdown()
+                                        @feature.FeatureName.ToHtml()
                                     </td>
 
                                     @if(@feature.Values.Telegram != null) 
@@ -116,7 +116,7 @@
         </div>
         <p class="updated-date">
             @GeneralData["LastModified"]  <br> <br>
-            @((MarkupString)GeneralData["Author"].ProcessMarkdown())
+            @((MarkupString)GeneralData["Author"].ToHtml())
 		</p>
 </section>
 }
