@@ -38,18 +38,20 @@
                 <tbody>
                 @if(ComparisonData != null) 
                 {
-                    string score = string.Empty;
                     MarkupString value = new MarkupString();
+                    string score = string.Empty;                    
+                    int groupRowspan, aspectRowspan;
+                    bool groupWasAdded, aspectWasAdded;
 
                     foreach(var group in ComparisonData)
                     {                        
-                        int groupRowspan = GetRowCount(group);
-                        bool groupWasAdded = false;
+                        groupRowspan = GetRowCount(group);
+                        groupWasAdded = false;
 
                         foreach(var aspect in group.Aspects)
                         {
-                            int aspectRowspan = aspect.Features.Count();
-                            bool aspectWasAdded = false;
+                            aspectRowspan = aspect.Features.Count();
+                            aspectWasAdded = false;
 
                             foreach(var feature in aspect.Features)
                             {
