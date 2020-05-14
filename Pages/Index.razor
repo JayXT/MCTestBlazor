@@ -25,13 +25,13 @@
 						<th>@GeneralData["Aspect"]</th>
 						<th>@GeneralData["Feature"]</th>
 						<th>
-							<span class="telegram-icon">Telegram</span>
+							<span class="telegram-icon">@GeneralData["Telegram"]</span>
 						</th>
 						<th>
-							<span class="viber-icon">Viber</span>
+							<span class="viber-icon">@GeneralData["Viber"]</span>
 						</th>
 						<th>
-							<span class="whatsapp-icon">WhatsApp</span>
+							<span class="whatsapp-icon">@GeneralData["WhatsApp"]</span>
 						</th>
 					</tr>
 				</thead>
@@ -143,10 +143,10 @@
         var comparisonDataResponse = await Http.GetAsync($"data/{selectedLanguage}/comparison-data.json");
         DateTime lastModifiedDate = comparisonDataResponse.Content.Headers.LastModified.Value.DateTime;
 
-        GeneralData = await Http.GetJsonAsync<Dictionary<string, string>>($"data/{selectedLanguage}/general-data.json");
+        GeneralData = await Http.GetFromJsonAsync<Dictionary<string, string>>($"data/{selectedLanguage}/general-data.json");
         GeneralData["Languages"] = GetLanguages(allowedLanguages, selectedLanguage);
         GeneralData["LastModified"] = GetLastModified(selectedLanguage, lastModifiedDate);
-        
+
         var comparisonJson = await comparisonDataResponse.Content.ReadAsStringAsync();
         ComparisonData = JsonSerializer.Deserialize<List<Group>>(comparisonJson);
     }

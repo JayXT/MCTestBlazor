@@ -3,6 +3,9 @@
     "Group": "Group",
     "Aspect": "Aspect",
     "Feature": "Feature",
+    "Telegram": "Telegram",
+    "Viber": "Viber",
+    "WhatsApp": "WhatsApp",
     "Updated": "Translation updated: ",
     "Author": "Translation author: [JayXT](https://github.com/JayXT)"
 }
