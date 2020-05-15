@@ -152,8 +152,8 @@
         GeneralData["Languages"] = GetLanguages(allowedLanguages, selectedLanguage);
         GeneralData["LastModified"] = GetLastModified(selectedLanguage, lastModifiedDate);
 
-        var comparisonJson = await comparisonDataResponse.Content.ReadAsStringAsync();
-        ComparisonData = JsonSerializer.Deserialize<List<Group>>(comparisonJson);
+        ComparisonData = await comparisonDataResponse.Content
+                                    .ReadFromJsonAsync<List<Group>>();
     }
 
     public string GetLanguages(List<string> allowedLanguages, string selectedLanguage)
