@@ -1,6 +1,8 @@
 ﻿@page "/"
 @page "/{language}"
+@using Microsoft.Extensions.Configuration
 @inject HttpClient Http
+@inject IConfiguration Configuration
 
 @if(GeneralData != null) 
 {
@@ -137,7 +139,8 @@
 
     protected async Task RefreshContent()
     {
-        List<string> allowedLanguages = new List<string> { "en", "ru", "pt", "ua" };
+        List<string> allowedLanguages = Configuration["Languages"].Split(',').ToList();
+        
         var selectedLanguage =
             (string.IsNullOrEmpty(Language) || !allowedLanguages.Contains(Language))
             ? "ua" : Language;
