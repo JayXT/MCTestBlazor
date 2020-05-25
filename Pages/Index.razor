@@ -80,7 +80,7 @@
                                         (score, value) =  @feature.Values.Telegram.GetScoreValue();
                                         <td class="@score">@value</td>
                                     } 
-                                    else if(@aspect.Values.Telegram != null && !aspectWasAdded)
+                                    else if(!aspectWasAdded && @aspect.Values.Telegram != null)
                                     {
                                         (score, value) =  @aspect.Values.Telegram.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
@@ -91,7 +91,7 @@
                                         (score, value) = @feature.Values.Viber.GetScoreValue();
                                         <td class="@score">@value</td>
                                     } 
-                                    else if(@aspect.Values.Viber != null && !aspectWasAdded)
+                                    else if(!aspectWasAdded && @aspect.Values.Viber != null)
                                     {
                                         (score, value) = @aspect.Values.Viber.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
@@ -102,7 +102,7 @@
                                         (score, value) = @feature.Values.WhatsApp.GetScoreValue();
                                         <td class="@score">@value</td>
                                     } 
-                                    else if(@aspect.Values.WhatsApp != null && !aspectWasAdded)
+                                    else if(!aspectWasAdded && @aspect.Values.WhatsApp != null)
                                     {
                                         (score, value) = @aspect.Values.WhatsApp.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
