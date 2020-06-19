@@ -10,13 +10,13 @@
             "Values": {
               "Telegram": "Telegram FZ LLC",
               "Viber": "Rakuten, Inc.",
-              "WhatsApp": "disadvantage|[Facebook](https://en.wikipedia.org/wiki/Criticism_of_Facebook) "
+              "WhatsApp": "disadvantage|[Facebook](https://en.wikipedia.org/wiki/Criticism_of_Facebook)"
             }
           },
           {
             "FeatureName": "Тип",
             "Values": {
-              "Telegram": "advantage|[Некоммерческий](https://telegram.org/faq#q-how-are-you-going-to-make-money-out-of-this) ",
+              "Telegram": "advantage|[Некоммерческий](https://telegram.org/faq#q-how-are-you-going-to-make-money-out-of-this)",
               "Viber": "mediocrity|Коммерческий",
               "WhatsApp": "mediocrity|Коммерческий"
             }
@@ -39,7 +39,7 @@
             "Values": {
               "Telegram": "advantage|[Свобода](https://telegram.org/blog/200-million) [безопасного и приватного](https://telegram.org/faq#q-do-you-process-data-requests) общения доступна для каждого",
               "Viber": "mediocrity|\"[Максимально защищенный](https://www.viber.com/security/) мессенджер.\" Резервные копии не зашифрованы.",
-              "WhatsApp": "disadvantage|\"[Конфиденциальность и безопасность](https://www.whatsapp.com/security/) – часть нашей ДНК.\" Резервные копии не зашифрованы, обнаружены [уязвимости](https://telegra.ph/CHomu-WhatsApp-N%D1%96koli-Ne-Bude-Bezpechnim-05-16), [утечки информации](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4) "
+              "WhatsApp": "disadvantage|\"[Конфиденциальность и безопасность](https://www.whatsapp.com/security/) – часть нашей ДНК.\" Резервные копии не зашифрованы, обнаружены [уязвимости](https://telegra.ph/CHomu-WhatsApp-N%D1%96koli-Ne-Bude-Bezpechnim-05-16), [утечки информации](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4)"
             }
           },
           {
@@ -61,9 +61,7 @@
           {
             "FeatureName": "Взаимодействие с Сообществом",
             "Values": {
-              "Telegram": "advantage|Crowdsourcing и [конкурсы](https://contest.com/)",
-              "Viber": "disadvantage|Отсутствует",
-              "WhatsApp": "disadvantage|Отсутствует"
+              "Telegram": "advantage|Crowdsourcing и [конкурсы](https://contest.com/)"
             }
           },
           {
@@ -77,7 +75,7 @@
           {
             "FeatureName": "Серверная Часть",
             "Values": {
-              "Telegram": "disadvantage|[Пока что](https://telegram.org/faq#q-why-not-open-source-everything) закрыта ",
+              "Telegram": "disadvantage|[Пока что](https://telegram.org/faq#q-why-not-open-source-everything) закрыта",
               "Viber": "disadvantage|Закрыта",
               "WhatsApp": "disadvantage|Закрыта"
             }
@@ -85,9 +83,9 @@
           {
             "FeatureName": "Протокол Шифрования",
             "Values": {
-              "Telegram": "advantage|Собственный открытый [MTProto](https://core.telegram.org/mtproto) ",
-              "Viber": "mediocrity|Полузакрытый проприетарный протокол (доступна некоторая [документация](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf)) ",
-              "WhatsApp": "mediocrity|Открытый Signal (закрытый код приложения не позволяет проверить реализацию) "
+              "Telegram": "advantage|Собственный открытый [MTProto](https://core.telegram.org/mtproto)",
+              "Viber": "mediocrity|Полузакрытый проприетарный протокол (доступна некоторая [документация](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf))",
+              "WhatsApp": "mediocrity|Открытый Signal (закрытый код приложения не позволяет проверить реализацию)"
             }
           }
         ]
@@ -113,7 +111,7 @@
             "Values": {
               "Telegram": "advantage|[Базовая](https://telegram.org/faq) и [техническая](https://core.telegram.org/techfaq)",
               "Viber": "advantage|Подробная информация на [сайте поддержки](https://support.viber.com/)",
-              "WhatsApp": "advantage|[Структурированное и с инструкциям](https://faq.whatsapp.com/) "
+              "WhatsApp": "advantage|[Структурированное и с инструкциям](https://faq.whatsapp.com/)"
             }
           },
           {
@@ -127,7 +125,7 @@
           {
             "FeatureName": "Модель поддержки",
             "Values": {
-              "Telegram": "disadvantage|Поддержка добровольцами ([TSF](https://core.telegram.org/tsi)) ",
+              "Telegram": "disadvantage|Поддержка добровольцами ([TSF](https://core.telegram.org/tsi))",
               "Viber": "advantage|Коммерческая поддержка",
               "WhatsApp": "advantage|Коммерческая поддержка"
             }
@@ -148,7 +146,7 @@
           {
             "FeatureName": "Нелегальный/Преступный Контент",
             "Values": {
-              "Telegram": "advantage|[Блокируется](https://telegram.org/faq#q-wait-0-o-do-you-process-take-down-requests-from-third-parties) ",
+              "Telegram": "advantage|[Блокируется](https://telegram.org/faq#q-wait-0-o-do-you-process-take-down-requests-from-third-parties)",
               "Viber": "advantage|Блокируется",
               "WhatsApp": "advantage|Блокируется"
             }
@@ -238,7 +236,7 @@
             "FeatureName": "Количество Устройств",
             "Values": {
               "Telegram": "advantage|Неограниченное",
-              "Viber": "disadvantage|Одно первичное и несколько вторичных устройств ",
+              "Viber": "disadvantage|Одно первичное и несколько вторичных устройств",
               "WhatsApp": "disadvantage|2"
             }
           },
@@ -274,7 +272,7 @@
           {
             "FeatureName": "Содержание Резервных Копий",
             "Values": {
-              "Telegram": "advantage|Все данные, кроме секретных чатов, включая: чаты, сообщения, настройки, медиа, файлы ",
+              "Telegram": "advantage|Все данные, кроме секретных чатов, включая: чаты, сообщения, настройки, медиа, файлы",
               "Viber": "disadvantage|Текстовые сообщения (кроме секретных чатов)",
               "WhatsApp": "disadvantage|Текстовые сообщения и медиа"
             }
@@ -291,7 +289,7 @@
             "FeatureName": "Срок Хранения Данных",
             "Values": {
               "Telegram": "advantage|Неограниченный, но в случае неактивности аккаунта в течение 6 месяцев (по умолчанию) данные будут удалены",
-              "Viber": "disadvantage|До перезаписи новой копией и в зависимости от политики Google Drive/Apple iCloud ",
+              "Viber": "disadvantage|До перезаписи новой копией и в зависимости от политики Google Drive/Apple iCloud",
               "WhatsApp": "disadvantage|Временный и до перезаписи, Google Drive бэкапы необновляемые более года теряются"
             }
           },
@@ -306,7 +304,7 @@
           {
             "FeatureName": "Шифрование",
             "Values": {
-              "Telegram": "advantage|В режиме клиент-сервер с распределением ключа шифрования между различными юрисдикциями ",
+              "Telegram": "advantage|В режиме клиент-сервер с распределением ключа шифрования между различными юрисдикциями",
               "Viber": "disadvantage|Резервные копии не зашифрованы",
               "WhatsApp": "disadvantage|Резервные копии не зашифрованы"
             }
@@ -319,25 +317,21 @@
           {
             "FeatureName": "Через Интегрированные механизмы",
             "Values": {
-              "Telegram": "advantage|Присутствует",
-              "Viber": "disadvantage|Отсутствует",
-              "WhatsApp": "disadvantage|Отсутствует"
+              "Telegram": "advantage|Присутствует"
             }
           },
           {
             "FeatureName": "Поддержка Прокси",
             "Values": {
               "Telegram": "advantage|Присутствует",
-              "Viber": "advantage|Присутствует",
-              "WhatsApp": "disadvantage|Отсутствует"
+              "Viber": "advantage|Присутствует"
             }
           },
           {
             "FeatureName": "Дополнительные Средства с Поддержкой Шифрования",
             "Values": {
               "Telegram": "advantage|[MTProto Proxy](https://habr.com/ru/post/359348/)",
-              "Viber": "advantage|Shadowsocks, GoQuiet, Cloak",
-              "WhatsApp": "disadvantage|Отсутствуют"
+              "Viber": "advantage|Shadowsocks, GoQuiet, Cloak"
             }
           }
         ]
@@ -346,11 +340,11 @@
         "AspectName": "Безопасность",
         "Features": [
           {
-            "FeatureName": "[Perfect Forward Secrecy](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy) ",
+            "FeatureName": "[Perfect Forward Secrecy](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy)",
             "Values": {
               "Telegram": "advantage|[Поддерживается](https://core.telegram.org/api/pfs)",
-              "Viber": "advantage|[Поддерживается](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf) ",
-              "WhatsApp": "advantage|[Поддерживается](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf) "
+              "Viber": "advantage|[Поддерживается](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf)",
+              "WhatsApp": "advantage|[Поддерживается](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf)"
             }
           }
         ]
@@ -394,7 +388,7 @@
             "FeatureName": "Поддержка Экспорта Данных",
             "Values": {
               "Telegram": "advantage|[Гибкий экспорт](https://telegram.org/blog/export-and-more) с Telegram Desktop в JSON/HTML",
-              "Viber": "mediocrity|Ограниченная отправка истории чатов на почту, а также персональных данных Viber ",
+              "Viber": "mediocrity|Ограниченная отправка истории чатов на почту, а также персональных данных Viber",
               "WhatsApp": "mediocrity|Ограниченная отправка истории отдельных чатов на почту или экспорт в текстовые файлы"
             }
           },
@@ -409,8 +403,7 @@
           {
             "FeatureName": "Альтернативные Клиенты",
             "Values": {
-              "Telegram": "advantage|[Имеются](https://telegram.org/apps#telegram-database-library-tdlib) ",
-              "Viber": "disadvantage|Отсутствуют",
+              "Telegram": "advantage|[Имеются](https://telegram.org/apps#telegram-database-library-tdlib)",
               "WhatsApp": "mediocrity|WhatsApp for Business (несмотря на маркетинговые возможности создаёт лишнюю фрагментацию)"
             }
           }
@@ -429,7 +422,7 @@
             "Values": {
               "Telegram": "advantage|С поддержкой комбинированного форматирования (жирный, моноширинный, курсивный, подчеркнутый, зачеркнутый шрифт)",
               "Viber": "disadvantage|Без поддержки форматирования",
-              "WhatsApp": "mediocrity|С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт) "
+              "WhatsApp": "mediocrity|С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)"
             }
           },
           {
@@ -443,9 +436,7 @@
           {
             "FeatureName": "Хэштеги",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           },
           {
@@ -459,15 +450,13 @@
           {
             "FeatureName": "Удобный Просмотр Веб-страниц",
             "Values": {
-              "Telegram": "advantage|Через [Мгновенный Просмотр](https://instantview.telegram.org/) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Через [Мгновенный Просмотр](https://instantview.telegram.org/)"
             }
           },
           {
             "FeatureName": "Упоминания Пользователей",
             "Values": {
-              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/replies-mentions-hashtags#mentions) ",
+              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/replies-mentions-hashtags#mentions)",
               "Viber": "advantage|Поддерживаются",
               "WhatsApp": "advantage|Поддерживаются"
             }
@@ -475,7 +464,7 @@
           {
             "FeatureName": "Ответы к Сообщению",
             "Values": {
-              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/replies-mentions-hashtags#replies) ",
+              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/replies-mentions-hashtags#replies)",
               "Viber": "advantage|Поддерживаются",
               "WhatsApp": "advantage|Поддерживаются"
             }
@@ -499,9 +488,7 @@
           {
             "FeatureName": "Анимированные Эмодзи",
             "Values": {
-              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/folders#new-animated-emoji), некоторые имеют тактильную отдачу, или другие [особенности](https://telegram.org/blog/folders#and-one-more-thing) ",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/folders#new-animated-emoji), некоторые имеют тактильную отдачу, или другие [особенности](https://telegram.org/blog/folders#and-one-more-thing)"
             }
           },
           {
@@ -509,15 +496,14 @@
             "Values": {
               "Telegram": "advantage|[Тысячи](https://telegram.org/blog/400-million#20-000-stickers) общедоступных наборов и никаких платных",
               "Viber": "mediocrity|Платные и бесплатные стикеры, некоторые поддерживают звук",
-              "WhatsApp": "disadvantage|Несколько стандартных наборов и ограниченная поддержка через сторонние приложения "
+              "WhatsApp": "disadvantage|Несколько стандартных наборов и ограниченная поддержка через сторонние приложения"
             }
           },
           {
             "FeatureName": "Анимированные Стикеры",
             "Values": {
-              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/animated-stickers), сочетают существенную экономию ресурсов и высокую плавность воспроизведения ",
-              "Viber": "mediocrity|Только мемоджи (iOS)",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/animated-stickers), сочетают существенную экономию ресурсов и высокую плавность воспроизведения",
+              "Viber": "mediocrity|Только мемоджи (iOS)"
             }
           },
           {
@@ -556,7 +542,6 @@
             "FeatureName": "Альбомы Изображений/Видео",
             "Values": {
               "Telegram": "advantage|До 10 элементов на альбом",
-              "Viber": "disadvantage|Не поддерживаются",
               "WhatsApp": "advantage|Поддерживаются"
             }
           },
@@ -564,8 +549,7 @@
             "FeatureName": "Временные/Секретные Изображения или Видео",
             "Values": {
               "Telegram": "advantage|Поддерживаются",
-              "Viber": "advantage|Поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "advantage|Поддерживаются"
             }
           },
           {
@@ -611,17 +595,16 @@
           {
             "FeatureName": "Расположение и Места",
             "Values": {
-              "Telegram": "advantage|[Да](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), в частности в режиме реального времени и просмотром взаимного расположения ",
+              "Telegram": "advantage|[Да](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), в частности в режиме реального времени и просмотром взаимного расположения",
               "Viber": "mediocrity|Поддерживаются",
-              "WhatsApp": "advantage|Да, в частности в режиме реального времени и просмотром взаимного расположения "
+              "WhatsApp": "advantage|Да, в частности в режиме реального времени и просмотром взаимного расположения"
             }
           },
           {
             "FeatureName": "Опросы",
             "Values": {
               "Telegram": "advantage|[Да](https://telegram.org/blog/polls-2-0-vmq) (анонимные/неанонимные, с выбором нескольких ответов, [викторины](https://telegram.org/blog/400-million#better-quizzes))",
-              "Viber": "mediocrity|Поддерживаются (до 4-х опций)",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "mediocrity|Поддерживаются (до 4-х опций)"
             }
           },
           {
@@ -636,16 +619,13 @@
             "FeatureName": "Видео Сообщения",
             "Values": {
               "Telegram": "advantage|Поддерживаются (до 60 с.)",
-              "Viber": "mediocrity|Поддерживаются (до 30 с.)",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "mediocrity|Поддерживаются (до 30 с.)"
             }
           },
           {
             "FeatureName": "Комментарии",
             "Values": {
-              "Telegram": "advantage|Через ботов",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Через ботов"
             }
           },
           {
@@ -668,7 +648,6 @@
             "FeatureName": "Товары из Каталогов",
             "Values": {
               "Telegram": "advantage|Как контент ботов или содержание платежей",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Через каталоги в WhatsApp Business"
             }
           },
@@ -697,7 +676,6 @@
             "FeatureName": "Массовое Копирование",
             "Values": {
               "Telegram": "advantage|До 100 сообщений за раз",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|До 10 сообщений за раз"
             }
           },
@@ -712,57 +690,43 @@
           {
             "FeatureName": "Массовый Обмен",
             "Values": {
-              "Telegram": "advantage|Поддерживается на Android (отправка внешнего содержимого в несколько чатов одновременно)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается на Android (отправка внешнего содержимого в несколько чатов одновременно)"
             }
           },
           {
             "FeatureName": "Отложенная Отправка Сообщений",
             "Values": {
-              "Telegram": "advantage|[Доступна](https://telegram.org/blog/scheduled-reminders-themes) (также [при появлении](https://telegram.org/blog/verifiable-apps-and-more#send-when-online) в сети), с просмотром и контролем отложенных сообщений",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Доступна](https://telegram.org/blog/scheduled-reminders-themes) (также [при появлении](https://telegram.org/blog/verifiable-apps-and-more#send-when-online) в сети), с просмотром и контролем отложенных сообщений"
             }
           },
           {
             "FeatureName": "Тихая Отправка Сообщений",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/silent-messages-slow-mode)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/silent-messages-slow-mode)"
             }
           },
           {
             "FeatureName": "Отмена Отправки при Медленном Соединении",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Облачные Черновики",
             "Values": {
-              "Telegram": "advantage|Поддерживаются, недописанные сообщения можно продолжить и отправить с любого устройства",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются, недописанные сообщения можно продолжить и отправить с любого устройства"
             }
           },
           {
             "FeatureName": "Встроенная Отправка Файлов из Облачного Хранилища",
             "Values": {
-              "Telegram": "advantage|Поддерживается (на iOS)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (на iOS)"
             }
           },
           {
             "FeatureName": "Поднесите, Чтобы Говорить (Для Записи Голосовых Сообщений)",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
@@ -776,9 +740,7 @@
           {
             "FeatureName": "Отправка Стикеров не из Собственных Наборов",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           }
         ]
@@ -790,24 +752,19 @@
             "FeatureName": "Текста Сообщений",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Замена Медиа/Файлов",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Обрезка/Поворот/Наклон изображений",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
@@ -829,65 +786,51 @@
           {
             "FeatureName": "Коррекция Изображений",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Фильтры Изображений",
             "Values": {
               "Telegram": "mediocrity|Через ботов",
-              "Viber": "advantage|Поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "advantage|Поддерживаются"
             }
           },
           {
             "FeatureName": "Размытие Изображений",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Инструмент Кривых",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Обрезка Видео и Видео Сообщений",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "mediocrity|Только видео, только на iOS",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Только видео, только на iOS"
             }
           },
           {
             "FeatureName": "Разрешение Видео",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Отключение Звука",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Создание Анимации",
             "Values": {
-              "Telegram": "advantage|Как видео с выключенным звуком",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Как видео с выключенным звуком"
             }
           }
         ]
@@ -908,7 +851,7 @@
             "Values": {
               "Telegram": "advantage|Любые, личные сообщения, собственные сообщения в группах",
               "Viber": "mediocrity|Собственные, личные сообщения (с уведомлением об удалении)",
-              "WhatsApp": "disadvantage|Собственные, личные сообщения (в течение 1 ч с уведомлением об удалении) "
+              "WhatsApp": "disadvantage|Собственные, личные сообщения (в течение 1 ч с уведомлением об удалении)"
             }
           },
           {
@@ -936,24 +879,21 @@
             "FeatureName": "Веб-содержимое",
             "Values": {
               "Telegram": "advantage|YouTube, Twitch, Twitter, Instagram, SoundCloud...",
-              "Viber": "mediocrity|YouTube",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|YouTube"
             }
           },
           {
             "FeatureName": "Потоковое Воспроизведение",
             "Values": {
               "Telegram": "advantage|Медиа и веб-содержимого",
-              "Viber": "disadvantage|YouTube",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|YouTube"
             }
           },
           {
             "FeatureName": "Картинка в Картинке",
             "Values": {
               "Telegram": "advantage|Для видео, видео сообщений и веб-содержимого",
-              "Viber": "disadvantage|YouTube",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|YouTube"
             }
           },
           {
@@ -967,73 +907,58 @@
           {
             "FeatureName": "Поворот",
             "Values": {
-              "Telegram": "advantage|Изображения и видео (Telegram Desktop)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Изображения и видео (Telegram Desktop)"
             }
           },
           {
             "FeatureName": "Фоновое Воспроизведение",
             "Values": {
-              "Telegram": "advantage|Музыки и голосовых сообщений",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Музыки и голосовых сообщений"
             }
           },
           {
             "FeatureName": "Музыкальный Плеер",
             "Values": {
               "Telegram": "advantage|[Доступный](https://telegram.org/blog/live-locations#new-media-player), изменение последовательности воспроизведения, поддержка различных форматов (MP3, FLAC)...",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Ограниченные воспроизведения"
             }
           },
           {
             "FeatureName": "Ускоренное Воспроизведение",
             "Values": {
-              "Telegram": "advantage|Для видео (Telegram Desktop), аудио, голосовых и видео сообщений",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Для видео (Telegram Desktop), аудио, голосовых и видео сообщений"
             }
           },
           {
             "FeatureName": "Перемотка Видео",
             "Values": {
-              "Telegram": "advantage|Доступно, с поддержкой [предварительного просмотра и временных меток](https://telegram.org/blog/silent-messages-slow-mode#timestamps-and-improved-scrubbing)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Доступно, с поддержкой [предварительного просмотра и временных меток](https://telegram.org/blog/silent-messages-slow-mode#timestamps-and-improved-scrubbing)"
             }
           },
           {
             "FeatureName": "Запоминание Позиций",
             "Values": {
-              "Telegram": "advantage|Для [долгих](https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support) аудио (подкасты, аудиокниги) и видео",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Для [долгих](https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support) аудио (подкасты, аудиокниги) и видео"
             }
           },
           {
             "FeatureName": "Автозапуск Анимаций и Видео",
             "Values": {
               "Telegram": "advantage|Поддерживается (включение звука кнопкой громкости)",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Предварительный Обзор Стикеров, их Наборов",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "mediocrity|Только стикеров",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Только стикеров"
             }
           },
           {
             "FeatureName": "Предварительный Обзор Анимаций",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
@@ -1063,7 +988,7 @@
           {
             "FeatureName": "Избранные Сообщения/Содержание",
             "Values": {
-              "Telegram": "advantage|Через отправку в Сохраненные или добавления анимаций/стикеров в избранное ",
+              "Telegram": "advantage|Через отправку в Сохраненные или добавления анимаций/стикеров в избранное",
               "Viber": "advantage|Через расширения",
               "WhatsApp": "advantage|Поддерживается"
             }
@@ -1089,49 +1014,37 @@
           {
             "FeatureName": "Сохранение Контента в Облаке",
             "Values": {
-              "Telegram": "advantage|Неограниченное по объему и периодом хранения",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Неограниченное по объему и периодом хранения"
             }
           },
           {
             "FeatureName": "Структурирование Чатов: Концепция",
             "Values": {
-              "Telegram": "advantage|Создание [папок (вкладок)](https://telegram.org/blog/folders) с мгновенной облачной синхронизацией между всеми устройствами",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Создание [папок (вкладок)](https://telegram.org/blog/folders) с мгновенной облачной синхронизацией между всеми устройствами"
             }
           },
           {
             "FeatureName": "Структурирование Чатов: Фильтрация",
             "Values": {
-              "Telegram": "advantage|Фильтрация включений (по типу чата, отдельных чатов), исключений (чатов с выключенными уведомлениями, прочитанных, заархивированных, индивидуальных)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Фильтрация включений (по типу чата, отдельных чатов), исключений (чатов с выключенными уведомлениями, прочитанных, заархивированных, индивидуальных)"
             }
           },
           {
             "FeatureName": "Структурирование Чатов: Ограничения",
             "Values": {
-              "Telegram": "advantage|До 10 папок, до 100 чатов на каждую",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|До 10 папок, до 100 чатов на каждую"
             }
           },
           {
             "FeatureName": "Структурирование Чатов: Другие Особенности",
             "Values": {
-              "Telegram": "advantage|Создание быстрых папок, синхронизация последовательности папок/чатов, поддержка клавиатурных сокращений, иконок (Telegram Desktop)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Создание быстрых папок, синхронизация последовательности папок/чатов, поддержка клавиатурных сокращений, иконок (Telegram Desktop)"
             }
           },
           {
             "FeatureName": "Операции с Несколькими Чатами одновременно",
             "Values": {
-              "Telegram": "advantage|Прикрепление/открепление, (раз)архивирования, удаления, очистка истории, кэша, обозначения прочитанными/непрочитанными, включения/выключения уведомлений",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Прикрепление/открепление, (раз)архивирования, удаления, очистка истории, кэша, обозначения прочитанными/непрочитанными, включения/выключения уведомлений"
             }
           },
           {
@@ -1145,9 +1058,7 @@
           {
             "FeatureName": "Предварительный Обзор Чатов",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
@@ -1162,14 +1073,13 @@
             "FeatureName": "Прикрепление Сообщений",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "mediocrity|Поддерживается (только в группах)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Поддерживается (только в группах)"
             }
           },
           {
             "FeatureName": "Прикрепление Чатов",
             "Values": {
-              "Telegram": "advantage|Поддерживается (до 5 чатов, в архиве, папках неограниченное количество) ",
+              "Telegram": "advantage|Поддерживается (до 5 чатов, в архиве, папках неограниченное количество)",
               "Viber": "advantage|Поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
@@ -1186,32 +1096,26 @@
             "FeatureName": "\"Усыпление\" Чатов",
             "Values": {
               "Telegram": "advantage|Через архивирование с выключением уведомлений",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Просмотр Общих с Контактом Групп",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Добавление контактов, Номер Как Неизвестный",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups)"
             }
           },
           {
             "FeatureName": "Добавление Контактов В Несколько Чатов Одновременно",
             "Values": {
-              "Telegram": "disadvantage|Не поддерживается",
-              "Viber": "advantage|Поддерживается (до 10 групп на Android)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается (до 10 групп на Android)"
             }
           },
           {
@@ -1226,30 +1130,26 @@
             "FeatureName": "Обозначение Архива Прочитанным",
             "Values": {
               "Telegram": "advantage|Поддерживается (для всех чатов)",
-              "Viber": "disadvantage|Архив не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|Архив не поддерживается"
             }
           },
           {
             "FeatureName": "Очистка Кэша Чата",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Запоминание Позиций Чатов",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Частично (до перезапуска приложения)"
             }
           },
           {
             "FeatureName": "Контроль Уведомлений Отдельных Чатов",
             "Values": {
-              "Telegram": "advantage|Временное/постоянное отключение, параметры системы, счётчик в иконке… ",
+              "Telegram": "advantage|Временное/постоянное отключение, параметры системы, счётчик в иконке…",
               "Viber": "mediocrity|Ограниченные настройки в рамках системы (от Android 8.0), временное отключение",
               "WhatsApp": "mediocrity|Временное/постоянное отключение"
             }
@@ -1263,23 +1163,19 @@
             "FeatureName": "Назначение",
             "Values": {
               "Telegram": "advantage|Облачный доступ к собственным данным с любых устройств",
-              "Viber": "mediocrity|Мои заметки: сохранение и сихронизация сообщений, создание списков",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Мои заметки: сохранение и сихронизация сообщений, создание списков"
             }
           },
           {
             "FeatureName": "Быстрый Переход к Источнику",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Отправка Напоминаний",
             "Values": {
               "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/scheduled-reminders-themes), через отложенные сообщения",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Через платную [интеграцию](https://whatsapp.any.do/) с сервисом Any.do"
             }
           }
@@ -1322,7 +1218,7 @@
           {
             "FeatureName": "Сквозное Шифрование",
             "Values": {
-              "Telegram": "advantage|Поддерживается ([MTProto](https://core.telegram.org/api/end-to-end)) ",
+              "Telegram": "advantage|Поддерживается ([MTProto](https://core.telegram.org/api/end-to-end))",
               "Viber": "mediocrity|Поддерживается (Unknown)"
             }
           },
@@ -1364,8 +1260,7 @@
           {
             "FeatureName": "Поддержка Ботов/Расширений",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           },
           {
@@ -1432,32 +1327,28 @@
             "FeatureName": "Публичные Группы",
             "Values": {
               "Telegram": "advantage|Доступ по открытой ссылке, поиск по имени",
-              "Viber": "advantage|Доступ к сообществам по ссылке/редактируемым скриншотом, поиск проверенных по имени, поддержка значков",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "advantage|Доступ к сообществам по ссылке/редактируемым скриншотом, поиск проверенных по имени, поддержка значков"
             }
           },
           {
             "FeatureName": "Приватные Группы",
             "Values": {
               "Telegram": "advantage|Доступ через закрытые ссылки",
-              "Viber": "mediocrity|Доступ к группам/сообществам через закрытые ссылки, только на мобильных устройствах ",
+              "Viber": "mediocrity|Доступ к группам/сообществам через закрытые ссылки, только на мобильных устройствах",
               "WhatsApp": "advantage|Доступ через закрытые ссылки"
             }
           },
           {
             "FeatureName": "Группы С Привязкой к Местоположению",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#location-based-chats) (как публичные группы с опцией поиска относительно местоположения).",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#location-based-chats) (как публичные группы с опцией поиска относительно местоположения)."
             }
           },
           {
             "FeatureName": "Получение Приватных Сообщений",
             "Values": {
               "Telegram": "advantage|Поддерживается (номера новых людей скрываются)",
-              "Viber": "advantage|Поддерживается в сообществах (номера новых людей скрываются), возможно запретить",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается в сообществах (номера новых людей скрываются), возможно запретить"
             }
           },
           {
@@ -1479,25 +1370,19 @@
           {
             "FeatureName": "Медленный Режим",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/silent-messages-slow-mode#slow-mode) (отправка не более одного сообщения за указанный промежуток времени)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/silent-messages-slow-mode#slow-mode) (отправка не более одного сообщения за указанный промежуток времени)"
             }
           },
           {
             "FeatureName": "Изменение Владельца",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#transfer-group-chats) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#transfer-group-chats)"
             }
           },
           {
             "FeatureName": "Должности Администраторов",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/silent-messages-slow-mode#admin-titles) (изменение меток в сообщениях админов) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/silent-messages-slow-mode#admin-titles) (изменение меток в сообщениях админов)"
             }
           },
           {
@@ -1511,17 +1396,14 @@
           {
             "FeatureName": "Просмотр Истории Действий",
             "Values": {
-              "Telegram": "advantage|За последние 48 часов",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|За последние 48 часов"
             }
           },
           {
             "FeatureName": "Статистика",
             "Values": {
               "Telegram": "advantage|Расширенная статистика через ботов",
-              "Viber": "advantage|Через инструменты Community Insights",
-              "WhatsApp": "disadvantage|Недоступна"
+              "Viber": "advantage|Через инструменты Community Insights"
             }
           },
           {
@@ -1543,9 +1425,7 @@
           {
             "FeatureName": "Официальные Стикерпаки",
             "Values": {
-              "Telegram": "advantage|В группах от 100 человек",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|В группах от 100 человек"
             }
           },
           {
@@ -1584,24 +1464,20 @@
             "FeatureName": "Коллекции Избранного Содержания",
             "Values": {
               "Telegram": "mediocrity|Через просмотр по типам медиа или фильтрацию по хэштегам",
-              "Viber": "advantage|Поддерживается для сообществ",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается для сообществ"
             }
           },
           {
             "FeatureName": "Умные Оповещения",
             "Values": {
               "Telegram": "advantage|Поддерживаются (не чаще m раз за n минут)",
-              "Viber": "mediocrity|Поддерживаются (дополнительная конфигурация невозможна)",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "mediocrity|Поддерживаются (дополнительная конфигурация невозможна)"
             }
           },
           {
             "FeatureName": "Расширение Возможностей",
             "Values": {
-              "Telegram": "advantage|Неограниченное, с помощью ботов, в частности модерация и автоматизация ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Неограниченное, с помощью ботов, в частности модерация и автоматизация"
             }
           }
         ]
@@ -1663,8 +1539,7 @@
           {
             "FeatureName": "Просмотр Истории Действий",
             "Values": {
-              "Telegram": "advantage|За последние 48 часов",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|За последние 48 часов"
             }
           },
           {
@@ -1705,8 +1580,7 @@
           {
             "FeatureName": "Изменение Владельца",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#transfer-group-chats) ",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#transfer-group-chats)"
             }
           },
           {
@@ -1726,29 +1600,25 @@
           {
             "FeatureName": "Тихая Отправка",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://www.telegram.org/blog/channels-2-0#silent-messages) ",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://www.telegram.org/blog/channels-2-0#silent-messages)"
             }
           },
           {
             "FeatureName": "Быстрое Выключение Уведомлений",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Счетчик Количества Просмотров",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Удобный Обмен Сообщениями",
             "Values": {
-              "Telegram": "advantage|Поддерживается (выбор получателей, комментирование)",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (выбор получателей, комментирование)"
             }
           },
           {
@@ -1769,14 +1639,13 @@
             "FeatureName": "Основные Моменты Сообществ",
             "Values": {
               "Telegram": "advantage|Основные моменты в каналах, обсуждения в группах",
-              "Viber": "advantage|Поддерживается для [сообществ](https://www.viber.com/blog/2020-01-23/recent-stickers-memoji-on-iphone-and-more-see-whats-new-on-viber/) "
+              "Viber": "advantage|Поддерживается для [сообществ](https://www.viber.com/blog/2020-01-23/recent-stickers-memoji-on-iphone-and-more-see-whats-new-on-viber/)"
             }
           },
           {
             "FeatureName": "Обсуждение и Комментарии",
             "Values": {
-              "Telegram": "advantage| Через [интеграцию с группами](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats) и такие боты как [@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot)",
-              "Viber": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Через [интеграцию с группами](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats) и такие боты как [@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot)"
             }
           },
           {
@@ -1817,15 +1686,13 @@
           {
             "FeatureName": "Просмотр Содержимого Через Интернет",
             "Values": {
-              "Telegram": "advantage|Поддерживается (публичные каналы можно [читать](https://telegram.org/blog/privacy-discussions-web-bots#view-public-channels) в браузере)",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (публичные каналы можно [читать](https://telegram.org/blog/privacy-discussions-web-bots#view-public-channels) в браузере)"
             }
           },
           {
             "FeatureName": "Расширение Возможностей",
             "Values": {
-              "Telegram": "advantage|Неограниченное (через ботов)",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Неограниченное (через ботов)"
             }
           },
           {
@@ -1839,9 +1706,6 @@
       },
       {
         "AspectName": "Расширение",
-        "Values": {
-          "WhatsApp": "disadvantage|Не поддерживаются"
-        },
         "Features": [
           {
             "FeatureName": "Доступ к Веб-содержимому",
@@ -1853,7 +1717,7 @@
           {
             "FeatureName": "Примеры Доступных Веб Сервисов",
             "Values": {
-              "Telegram": "advantage|Bing Image Search, GIPHY, IMDb, YouTube, Wikipedia, Spotify, Gmail, Foursquare, Tenor, Guggy, Vlipsy… ",
+              "Telegram": "advantage|Bing Image Search, GIPHY, IMDb, YouTube, Wikipedia, Spotify, Gmail, Foursquare, Tenor, Guggy, Vlipsy…",
               "Viber": "advantage|YouTube, Tenor, GIPHY, Guggy, Gfycat, FC Barcelona, TuneMoji, Vlipsy, Vice, Booking…"
             }
           }
@@ -1861,9 +1725,6 @@
       },
       {
         "AspectName": "Боты",
-        "Values": {
-          "WhatsApp": "disadvantage|Не поддерживаются"
-        },
         "Features": [
           {
             "FeatureName": "Основная Концепция",
@@ -1883,20 +1744,20 @@
             "FeatureName": "Атрибуты Ботов",
             "Values": {
               "Telegram": "advantage|Имя, фото, описание и адрес",
-              "Viber": "advantage|Параметры уровня публичного аккаунта (бренд, описание, местонахождение, CTA-кнопки) "
+              "Viber": "advantage|Параметры уровня публичного аккаунта (бренд, описание, местонахождение, CTA-кнопки)"
             }
           },
           {
             "FeatureName": "Ограничения на Создание",
             "Values": {
-              "Telegram": "advantage|[Практически Отсутствуют](https://core.telegram.org/bots#6-botfather) ",
+              "Telegram": "advantage|[Практически Отсутствуют](https://core.telegram.org/bots#6-botfather)",
               "Viber": "disadvantage|[Все требования](https://developers.viber.com/docs/general/get-started/#public-account-bot-guidelines) к ботам и [требования](https://support.viber.com/customer/en/portal/articles/2689496-public-account-naming-policy) к публичному аккаунту"
             }
           },
           {
             "FeatureName": "Поддерживаемые Типы Содержимого",
             "Values": {
-              "Telegram": "advantage|Все (что поддерживаются Telegram), в частности [местонахождение и номер](https://core.telegram.org/bots#location-and-number), [опрос](https://telegram.org/blog/polls-2-0-vmq#bot-api-and-quiz-bot) ",
+              "Telegram": "advantage|Все (что поддерживаются Telegram), в частности [местонахождение и номер](https://core.telegram.org/bots#location-and-number), [опрос](https://telegram.org/blog/polls-2-0-vmq#bot-api-and-quiz-bot)",
               "Viber": "mediocrity|Текст, Изображения, видео, контакт, URL, [карусели](https://developers.viber.com/docs/api/rest-bot-api/#carousel-content-message), графическое содержание, а также местонахождение"
             }
           },
@@ -1924,15 +1785,14 @@
           {
             "FeatureName": "Взаимодействие с Сообщениями Ботов",
             "Values": {
-              "Telegram": "advantage|Через[ встроенные](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) клавитатуры с поддержкой обновления содержимого динамических сообщений ",
+              "Telegram": "advantage|Через[ встроенные](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) клавитатуры с поддержкой обновления содержимого динамических сообщений",
               "Viber": "mediocrity|Ограниченная поддержка (через кнопки)"
             }
           },
           {
             "FeatureName": "Добавление Ботов к Другим Чатам",
             "Values": {
-              "Telegram": "advantage|Поддерживается (для групп/каналов)",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (для групп/каналов)"
             }
           },
           {
@@ -1945,35 +1805,32 @@
           {
             "FeatureName": "Разрешение на Беседу",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/login#permission-to-speak) (для отправки уведомлений)",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/login#permission-to-speak) (для отправки уведомлений)"
             }
           },
           {
             "FeatureName": "Режим Приватности в Группах",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://core.telegram.org/bots#privacy-mode) ",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://core.telegram.org/bots#privacy-mode)"
             }
           },
           {
             "FeatureName": "Deep Linking",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://core.telegram.org/bots#deep-linking) ",
+              "Telegram": "advantage|[Поддерживается](https://core.telegram.org/bots#deep-linking)",
               "Viber": "advantage|[Поддерживается](https://developers.viber.com/docs/tools/deep-links/) (с ориентацией на публичные чаты)"
             }
           },
           {
             "FeatureName": "Быстрая Веб-Авторизация",
             "Values": {
-              "Telegram": "advantage|Поддерживается ([по ссылке](https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots)) ",
-              "Viber": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается ([по ссылке](https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots))"
             }
           },
           {
             "FeatureName": "Создание Ботов",
             "Values": {
-              "Telegram": "advantage|Через бота [@BotFather](https://telegram.me/botfather) и Bot API ",
+              "Telegram": "advantage|Через бота [@BotFather](https://telegram.me/botfather) и Bot API",
               "Viber": "mediocrity|Через Viber REST API"
             }
           },
@@ -1989,8 +1846,7 @@
       {
         "AspectName": "Медиа Статус",
         "Values": {
-          "Telegram": "mediocrity|Ограниченная поддержка через комбинацию описания профиля, каналов и ботов",
-          "Viber": "disadvantage|Не поддерживается"
+          "Telegram": "mediocrity|Ограниченная поддержка через комбинацию описания профиля, каналов и ботов"
         },
         "Features": [
           {
@@ -2020,7 +1876,7 @@
           {
             "FeatureName": "Настройками Приватности",
             "Values": {
-              "WhatsApp": "advantage|[Поддерживаются](https://faq.whatsapp.com/en/android/26000031/?category=5245234) "
+              "WhatsApp": "advantage|[Поддерживаются](https://faq.whatsapp.com/en/android/26000031/?category=5245234)"
             }
           }
         ]
@@ -2056,24 +1912,20 @@
             "FeatureName": "Peer-to-Peer Режим",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Оптимизация Связи Через Искусственный Интеллект",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Быстрая Проверка Безопасности Шифрование",
             "Values": {
               "Telegram": "advantage|Через [сопоставление 4-х эмодзи](https://telegram.org/blog/calls#secure)",
-              "Viber": "disadvantage|Не поддерживается (только через громоздкий код)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|Не поддерживается (только через громоздкий код)"
             }
           },
           {
@@ -2087,9 +1939,7 @@
           {
             "FeatureName": "Индикация Наличия Адресата в Сети",
             "Values": {
-              "Telegram": "advantage|Через различные виды гудков",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Через различные виды гудков"
             }
           },
           {
@@ -2111,26 +1961,19 @@
           {
             "FeatureName": "Перенос Звонка на Устройство",
             "Values": {
-              "Telegram": "disadvantage|Не поддерживается",
-              "Viber": "advantage|На телефон/компьютер",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|На телефон/компьютер"
             }
           },
           {
             "FeatureName": "Демонстрация Рабочего Стола",
             "Values": {
-              "Telegram": "disadvantage|Не поддерживается",
-              "Viber": "advantage|Поддерживается (на Viber Desktop)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается (на Viber Desktop)"
             }
           }
         ]
       },
       {
         "AspectName": "Голосовые Конференции",
-        "Values": {
-          "Telegram": "disadvantage|Не поддерживаются"
-        },
         "Features": [
           {
             "FeatureName": "Количество Участников",
@@ -2150,9 +1993,6 @@
       },
       {
         "AspectName": "Видео Звонки",
-        "Values": {
-          "Telegram": "disadvantage|Не поддерживаются"
-        },
         "Features": [
           {
             "FeatureName": "Поддержка",
@@ -2164,8 +2004,7 @@
           {
             "FeatureName": "Перенос Звонка на Устройство",
             "Values": {
-              "Viber": "advantage|На телефон/компьютер",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|На телефон/компьютер"
             }
           },
           {
@@ -2186,10 +2025,6 @@
       },
       {
         "AspectName": "Видео Конференции",
-        "Values": {
-          "Telegram": "disadvantage|Не поддерживаются",
-          "Viber": "disadvantage|Не поддерживаются"
-        },
         "Features": [
           {
             "FeatureName": "Количество Участников",
@@ -2208,8 +2043,8 @@
       {
         "AspectName": "Сотовые Звонки",
         "Values": {
-          "Telegram": "mediocrity|Не поддерживаются (противоречит философии и подходу к безопасности) ",
-          "WhatsApp": "mediocrity|Не поддерживаются (противоречит философии и подходу к безопасности) "
+          "Telegram": "mediocrity|Не поддерживаются (противоречит философии и подходу к безопасности)",
+          "WhatsApp": "mediocrity|Не поддерживаются (противоречит философии и подходу к безопасности)"
         },
         "Features": [
           {
@@ -2238,8 +2073,7 @@
             "FeatureName": "Через",
             "Values": {
               "Telegram": "advantage|Ботов или [независимые сайты](https://tlgrm.ru/channels)",
-              "Viber": "advantage|[Discover](https://discover.viber.com/)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|[Discover](https://discover.viber.com/)"
             }
           }
         ]
@@ -2258,41 +2092,31 @@
           {
             "FeatureName": "По Хэштегам",
             "Values": {
-              "Telegram": "advantage|В том числе по нескольким",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|В том числе по нескольким"
             }
           },
           {
             "FeatureName": "По Названиям Файлов",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "По Тексту Предварительного Просмотра",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Фильтрация по Дате",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Фильтрация по Отправителю",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           }
         ]
@@ -2317,7 +2141,7 @@
             "FeatureName": "Данных",
             "Values": {
               "Telegram": "advantage|Поддерживается (боты, пользователи, стикерпаки, каналы…)",
-              "Viber": "disadvantage|Только локально (за исключением проверенных сообществ) ",
+              "Viber": "disadvantage|Только локально (за исключением проверенных сообществ)",
               "WhatsApp": "disadvantage|Только локально"
             }
           }
@@ -2329,9 +2153,7 @@
           {
             "FeatureName": "По Названиям",
             "Values": {
-              "Telegram": "advantage|Поддерживается (для файлов и аудио)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (для файлов и аудио)"
             }
           }
         ]
@@ -2342,16 +2164,13 @@
           {
             "FeatureName": "По Названию",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "По Ключевым Словам",
             "Values": {
               "Telegram": "advantage|Поддерживается (по словам добавленными в платформу локализации)",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
           }
@@ -2364,16 +2183,14 @@
             "FeatureName": "По Ключевым Словам",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "mediocrity|Ограниченная поддержка",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Ограниченная поддержка"
             }
           },
           {
             "FeatureName": "По Эмодзи",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается"
             }
           }
         ]
@@ -2385,8 +2202,7 @@
             "FeatureName": "По Запросам",
             "Values": {
               "Telegram": "advantage|Поддерживается (в том числе из ботов)",
-              "Viber": "advantage|Поддерживается (через расширения)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается (через расширения)"
             }
           }
         ]
@@ -2397,9 +2213,7 @@
           {
             "FeatureName": "По Запросам",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           }
         ]
@@ -2437,8 +2251,7 @@
             "FeatureName": "По Запросам",
             "Values": {
               "Telegram": "advantage|Поддерживается через ботов",
-              "Viber": "advantage|Поддерживается через расширения",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается через расширения"
             }
           }
         ]
@@ -2449,17 +2262,13 @@
           {
             "FeatureName": "По Названию",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Исключения оповещений в настройках",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#enhanced-notification-exceptions) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#enhanced-notification-exceptions)"
             }
           }
         ]
@@ -2470,9 +2279,7 @@
           {
             "FeatureName": "По Вопрос/Ответ",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           }
         ]
@@ -2525,15 +2332,15 @@
           {
             "FeatureName": "Поддержка QR-кодов",
             "Values": {
-              "Telegram": "advantage|Используются для обмена прокси (на macOS), авторизации в Telegram Desktop ",
+              "Telegram": "advantage|Используются для обмена прокси (на macOS), авторизации в Telegram Desktop",
               "Viber": "advantage|Используются в частности для добавления друзей, присоединение к группам, добавления купонов, авторизации",
-              "WhatsApp": "advantage|Используются для сопоставления ключей шифрования, приглашения в группы "
+              "WhatsApp": "advantage|Используются для сопоставления ключей шифрования, приглашения в группы"
             }
           },
           {
             "FeatureName": "Быстрые Переходы",
             "Values": {
-              "Telegram": "advantage|В начало списка чатов, к последнему сообщению, упоминания или даты в чате ",
+              "Telegram": "advantage|В начало списка чатов, к последнему сообщению, упоминания или даты в чате",
               "Viber": "mediocrity|Ограниченная поддержка",
               "WhatsApp": "mediocrity|Ограниченная поддержка"
             }
@@ -2541,33 +2348,25 @@
           {
             "FeatureName": "Изменение Получателя Пересылаемых Сообщений",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges)"
             }
           },
           {
             "FeatureName": "Отмена Очистки Истории И Удаления Чатов",
             "Values": {
-              "Telegram": "advantage|Поддерживается, в течение 5 секунд (Android, iOS)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается, в течение 5 секунд (Android, iOS)"
             }
           },
           {
             "FeatureName": "Отмена Удаления Сообщений",
             "Values": {
-              "Telegram": "disadvantage|Не поддерживается",
-              "Viber": "advantage|Для сообщений удаленных для себя (Desktop)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Для сообщений удаленных для себя (Desktop)"
             }
           },
           {
             "FeatureName": "Быстрое Воспроизведение Видео в Полноэкранном Режиме",
             "Values": {
-              "Telegram": "advantage|Через поворот экрана",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Через поворот экрана"
             }
           }
         ]
@@ -2586,9 +2385,7 @@
           {
             "FeatureName": "Расширенная Конфигурация Фона",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/backgrounds-2-0) ([узоры](https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0), их интенсивность, размытие, движение)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/backgrounds-2-0) ([узоры](https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0), их интенсивность, размытие, движение)"
             }
           },
           {
@@ -2602,33 +2399,25 @@
           {
             "FeatureName": "Поддержка Ночного Режима",
             "Values": {
-              "Telegram": "advantage|С глубокой интеграцией и поддержкой быстрой активации [через переключатель](https://telegram.org/blog/verifiable-apps-and-more#switch-to-night-mode-faster)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|С глубокой интеграцией и поддержкой быстрой активации [через переключатель](https://telegram.org/blog/verifiable-apps-and-more#switch-to-night-mode-faster)"
             }
           },
           {
             "FeatureName": "Переход в Ночной Режим",
             "Values": {
-              "Telegram": "advantage|По расписанию, восхода/захода солнца или показаниям датчика освещения",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|По расписанию, восхода/захода солнца или показаниям датчика освещения"
             }
           },
           {
             "FeatureName": "Конфигурация Вида Пузырьков Сообщений",
             "Values": {
-              "Telegram": "advantage| [Поддерживается](https://telegram.org/blog/polls-2-0-vmq#message-corners) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/polls-2-0-vmq#message-corners)"
             }
           },
           {
             "FeatureName": "Компактный Режим Окна В Десктоп-версии",
             "Values": {
-              "Telegram": "advantage|Поддерживается, Telegram Desktop имеет высокоадаптивный интерфейс",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается, Telegram Desktop имеет высокоадаптивный интерфейс"
             }
           },
           {
@@ -2666,9 +2455,7 @@
           {
             "FeatureName": "VoiceOver, TalkBack",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           }
         ]
@@ -2684,18 +2471,13 @@
           {
             "FeatureName": "Инструменты",
             "Values": {
-              "Telegram": "advantage|Универсальные, Мощные [Telegram API](https://core.telegram.org/#telegram-api) и [TDLib](https://telegram.org/blog/tdlib)",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Универсальные, Мощные [Telegram API](https://core.telegram.org/#telegram-api) и [TDLib](https://telegram.org/blog/tdlib)"
             }
           }
         ]
       },
       {
         "AspectName": "Платформа Ботов",
-        "Values": {
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Возможности Разработки",
@@ -2707,8 +2489,7 @@
           {
             "FeatureName": "Поддержка Платежей",
             "Values": {
-              "Telegram": "advantage|Через [Bot Payments API](https://core.telegram.org/bots/payments)",
-              "Viber": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Через [Bot Payments API](https://core.telegram.org/bots/payments)"
             }
           },
           {
@@ -2757,22 +2538,18 @@
           {
             "FeatureName": "Конкурсы Для Создания Наборов",
             "Values": {
-              "Telegram": "advantage|Присутствуют",
-              "Viber": "disadvantage|Отсутствуют"
+              "Telegram": "advantage|Присутствуют"
             }
           }
         ]
       },
       {
         "AspectName": "Игровая Платформа",
-        "Values": {
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Реализация",
             "Values": {
-              "Telegram": "advantage|Через Bot API в виде ботов вроде [@gamee](https://t.me/gamee) ",
+              "Telegram": "advantage|Через Bot API в виде ботов вроде [@gamee](https://t.me/gamee)",
               "Viber": "advantage|Через расширения GAMEE или Games"
             }
           },
@@ -2780,7 +2557,7 @@
             "FeatureName": "Потребление дополнительных ресурсов",
             "Values": {
               "Telegram": "advantage|Практически отсутствует, игры – это HTML5 контент предоставленный ботами",
-              "Viber": "advantage|Практически отсутствует, игры – это HTML5 контент предоставленный расширениями "
+              "Viber": "advantage|Практически отсутствует, игры – это HTML5 контент предоставленный расширениями"
             }
           },
           {
@@ -2799,18 +2576,13 @@
             "FeatureName": "Концепция",
             "Values": {
               "Telegram": "mediocrity|Теоретическая поддержка коротких чат историй через Bot API",
-              "Viber": "advantage|Публикация, доступ и чтение [коротких историй](https://www.viber.com/blog/2019-10-22/shorts-by-viber-quick-reads-you-cant-stop-binging/) в виде чатов",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Публикация, доступ и чтение [коротких историй](https://www.viber.com/blog/2019-10-22/shorts-by-viber-quick-reads-you-cant-stop-binging/) в виде чатов"
             }
           }
         ]
       },
       {
         "AspectName": "Платформа Мгновенного Просмотра",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Концепция",
@@ -2834,10 +2606,6 @@
       },
       {
         "AspectName": "Платформа Комментариев",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Концепция",
@@ -2861,10 +2629,6 @@
       },
       {
         "AspectName": "Платформа Викторин",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Концепция",
@@ -2894,10 +2658,6 @@
       },
       {
         "AspectName": "Платформа Веб Публикаций",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Реализация",
@@ -2908,7 +2668,7 @@
           {
             "FeatureName": "Контроль и Привязка Собственных Публикаций",
             "Values": {
-              "Telegram": "advantage|Через [Telegraph API for Logins and Stats](https://telegram.org/blog/telegraph) "
+              "Telegram": "advantage|Через [Telegraph API for Logins and Stats](https://telegram.org/blog/telegraph)"
             }
           },
           {
@@ -2920,7 +2680,7 @@
           {
             "FeatureName": "Доступность",
             "Values": {
-              "Telegram": "advantage|Возможна интеграция с другими сервисами через открытый API, а также независимое использование "
+              "Telegram": "advantage|Возможна интеграция с другими сервисами через открытый API, а также независимое использование"
             }
           },
           {
@@ -2933,10 +2693,6 @@
       },
       {
         "AspectName": "Платформа Видео Сообщений",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Реализация",
@@ -2954,10 +2710,6 @@
       },
       {
         "AspectName": "IFTTT Интеграция",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Через",
@@ -2968,7 +2720,7 @@
           {
             "FeatureName": "Возможности",
             "Values": {
-              "Telegram": "advantage|Автоматизированный [двусторонней связью](https://telegram.org/blog/pin-and-ifttt#ifttt-if-this-then-that) Telegram с более чем 360 сервисов (Instagram, Dropbox, Philips Hue…) через апплеты IFTTT "
+              "Telegram": "advantage|Автоматизированный [двусторонней связью](https://telegram.org/blog/pin-and-ifttt#ifttt-if-this-then-that) Telegram с более чем 360 сервисов (Instagram, Dropbox, Philips Hue…) через апплеты IFTTT"
             }
           },
           {
@@ -2981,10 +2733,6 @@
       },
       {
         "AspectName": "Веб Авторизация",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Через",
@@ -3002,15 +2750,11 @@
       },
       {
         "AspectName": "Подтверждение Личности",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Через",
             "Values": {
-              "Telegram": "advantage|Платформу [Telegram Passport](https://telegram.org/blog/passport) "
+              "Telegram": "advantage|Платформу [Telegram Passport](https://telegram.org/blog/passport)"
             }
           },
           {
@@ -3041,10 +2785,6 @@
       },
       {
         "AspectName": "Платформа Локализации",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Концепция",
@@ -3074,15 +2814,11 @@
       },
       {
         "AspectName": "Платформа Персонализации",
-        "Values": {
-          "Viber": "disadvantage|Не поддерживается",
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Концепция",
             "Values": {
-              "Telegram": "advantage|Создание, настройка, редактирование, поиск и обмен творчеством с другими "
+              "Telegram": "advantage|Создание, настройка, редактирование, поиск и обмен творчеством с другими"
             }
           },
           {
@@ -3107,45 +2843,41 @@
       },
       {
         "AspectName": "Платформа Конкурсов",
-        "Values": {
-          "Viber": "disadvantage|Отсутствует",
-          "WhatsApp": "disadvantage|Отсутствует"
-        },
         "Features": [
           {
             "FeatureName": "Назначение",
             "Values": {
-              "Telegram": "advantage|1) Улучшение и развитие Telegram и его экосистемы по выбору лучших работ и награждение победителей по принципу краудсорсинга;  \n 2) Предложения трудоустройства для лучших специалистов. "
+              "Telegram": "advantage|1) Улучшение и развитие Telegram и его экосистемы по выбору лучших работ и награждение победителей по принципу краудсорсинга;  \n 2) Предложения трудоустройства для лучших специалистов."
             }
           },
           {
             "FeatureName": "Реализация",
             "Values": {
-              "Telegram": "advantage|Обсуждение, оценивание работ и отражение победителей через веб-сайт [contest.com](https://contest.com/) "
+              "Telegram": "advantage|Обсуждение, оценивание работ и отражение победителей через веб-сайт [contest.com](https://contest.com/)"
             }
           },
           {
             "FeatureName": "Информирование О Деталях Соревнований",
             "Values": {
-              "Telegram": "advantage|Через официальные каналы: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers) "
+              "Telegram": "advantage|Через официальные каналы: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers)"
             }
           },
           {
             "FeatureName": "Подача Работ и Заявок",
             "Values": {
-              "Telegram": "advantage|Через ботов [@jobs_bot](https://t.me/jobs_bot), [@design_bot](https://t.me/design_bot) "
+              "Telegram": "advantage|Через ботов [@jobs_bot](https://t.me/jobs_bot), [@design_bot](https://t.me/design_bot)"
             }
           },
           {
             "FeatureName": "Вопросы и Обсуждения",
             "Values": {
-              "Telegram": "advantage|Через веб-сайт и группы для обсуждений [Telegram Contests](https://t.me/contests), [Конкурсы Telegram](https://t.me/contests_ru) "
+              "Telegram": "advantage|Через веб-сайт и группы для обсуждений [Telegram Contests](https://t.me/contests), [Конкурсы Telegram](https://t.me/contests_ru)"
             }
           },
           {
             "FeatureName": "Обеспечение Беспристрастного Оценивания",
             "Values": {
-              "Telegram": "advantage|Благодаря анонимному отображению работ "
+              "Telegram": "advantage|Благодаря анонимному отображению работ"
             }
           }
         ]
@@ -3156,16 +2888,13 @@
           {
             "FeatureName": "Пользователю (Через Имя Пользователя)",
             "Values": {
-              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/unsend-and-usage#t-me-links)",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/unsend-and-usage#t-me-links)"
             }
           },
           {
             "FeatureName": "Пользователю (Через Номер Телефона)",
             "Values": {
               "Telegram": "mediocrity|Поддерживается (на iOS)",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|[Поддерживается](https://faq.whatsapp.com/en/general/26000030/?category=5245251) (с возможностью написания сообщений)"
             }
           },
@@ -3181,70 +2910,56 @@
             "FeatureName": "Ботам",
             "Values": {
               "Telegram": "advantage|Поддерживаются",
-              "Viber": "advantage|Поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "advantage|Поддерживаются"
             }
           },
           {
             "FeatureName": "Сообщениям",
             "Values": {
-              "Telegram": "advantage|Поддерживаются (публичных и [приватных](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges)) ",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются (публичных и [приватных](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges))"
             }
           },
           {
             "FeatureName": "Наборам Стикеров",
             "Values": {
               "Telegram": "advantage|Поддерживаются",
-              "Viber": "advantage|Поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Viber": "advantage|Поддерживаются"
             }
           },
           {
             "FeatureName": "Темам",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           },
           {
             "FeatureName": "Фонам",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           },
           {
             "FeatureName": "Языку интерфейса",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           }
         ]
       },
       {
         "AspectName": "Встраивание Содержания",
-        "Values": {
-          "WhatsApp": "disadvantage|Не поддерживается"
-        },
         "Features": [
           {
             "FeatureName": "Сообщения Публичных каналов/Групп",
             "Values": {
-              "Telegram": "advantage|[Поддерживаются](https://telegram.org/tour/channels#embedding-messages)",
-              "Viber": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|[Поддерживаются](https://telegram.org/tour/channels#embedding-messages)"
             }
           },
           {
             "FeatureName": "Информация о Публичном Чате",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "advantage|[Поддерживается](https://developers.viber.com/docs/tools/public-chat-plugin/) "
+              "Viber": "advantage|[Поддерживается](https://developers.viber.com/docs/tools/public-chat-plugin/)"
             }
           },
           {
@@ -3262,7 +2977,7 @@
           {
             "FeatureName": "Через",
             "Values": {
-              "Telegram": "advantage|[Telegram Support Initiative](https://core.telegram.org/tsi) ",
+              "Telegram": "advantage|[Telegram Support Initiative](https://core.telegram.org/tsi)",
               "Viber": "mediocrity|Недоступна",
               "WhatsApp": "mediocrity|Недоступна"
             }
@@ -3280,7 +2995,7 @@
           {
             "FeatureName": "Изменение и Просмотр Предварительных Фото Профиля",
             "Values": {
-              "Telegram": "advantage|Поддерживается (в частности с возможностью поиска изображений в интернете) ",
+              "Telegram": "advantage|Поддерживается (в частности с возможностью поиска изображений в интернете)",
               "Viber": "mediocrity|Только изменение (поддерживается импорт из социальных сетей)",
               "WhatsApp": "mediocrity|Только изменение"
             }
@@ -3296,9 +3011,7 @@
           {
             "FeatureName": "Создание/Изменение Имени Пользователя",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
@@ -3381,15 +3094,13 @@
           {
             "FeatureName": "Параметры Счетчика на Значке",
             "Values": {
-              "Telegram": "advantage|Отображение, учет чатов без уведомлений, количество сообщений",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Отображение, учет чатов без уведомлений, количество сообщений"
             }
           },
           {
             "FeatureName": "Оповещения в Приложении",
             "Values": {
-              "Telegram": "advantage|Наличие звука, вибрации, текста сообщений, звуков в чатах, приоритета ",
+              "Telegram": "advantage|Наличие звука, вибрации, текста сообщений, звуков в чатах, приоритета",
               "Viber": "disadvantage|Наличие звука (в чатах)",
               "WhatsApp": "disadvantage|Звук в чатах"
             }
@@ -3413,32 +3124,25 @@
           {
             "FeatureName": "Перезапуск Приложения в Случае Закрытия",
             "Values": {
-              "Telegram": "advantage|Поддерживается (для надежного получения уведомлений)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (для надежного получения уведомлений)"
             }
           },
           {
             "FeatureName": "Фоновое Соединение",
             "Values": {
-              "Telegram": "advantage|Поддерживается (для надежного получения уведомлений)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (для надежного получения уведомлений)"
             }
           },
           {
             "FeatureName": "Повторение Уведомлений",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Сброс Настроек Уведомлений Чатов",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
           }
@@ -3466,7 +3170,7 @@
           {
             "FeatureName": "Поиск По Номеру Телефона",
             "Values": {
-              "Telegram": "advantage|Все, ваши контакты ([подробнее](https://telegram.org/blog/scheduled-reminders-themes#new-privacy-settings)) ",
+              "Telegram": "advantage|Все, ваши контакты ([подробнее](https://telegram.org/blog/scheduled-reminders-themes#new-privacy-settings))",
               "Viber": "disadvantage|Конфигурация не поддерживается (все)",
               "WhatsApp": "disadvantage|Конфигурация не поддерживается (все)"
             }
@@ -3475,7 +3179,7 @@
             "FeatureName": "Просмотр Последних Посещений/Статус Онлайн",
             "Values": {
               "Telegram": "advantage|Все ваши контакты, никто",
-              "Viber": "mediocrity|Ограниченная поддержка, настройки статуса онлайн возможно раз в сутки ",
+              "Viber": "mediocrity|Ограниченная поддержка, настройки статуса онлайн возможно раз в сутки",
               "WhatsApp": "mediocrity|Только последнее посещение (все ваши контакты, никто)"
             }
           },
@@ -3490,8 +3194,6 @@
           {
             "FeatureName": "Просмотр Статуса Профиля",
             "Values": {
-              "Telegram": "disadvantage|Не поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Ваши контакты; ваши контакты, кроме; только"
             }
           },
@@ -3499,7 +3201,6 @@
             "FeatureName": "Просмотр Описания Профиля",
             "Values": {
               "Telegram": "disadvantage|Конфигурация не поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Все, ваши контакты, никто"
             }
           },
@@ -3514,9 +3215,7 @@
           {
             "FeatureName": "Пересылка Ваших сообщений",
             "Values": {
-              "Telegram": "advantage|Все, ваши контакты, никто",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Все, ваши контакты, никто"
             }
           },
           {
@@ -3531,8 +3230,7 @@
             "FeatureName": "Вызовы Peer-to-Peer",
             "Values": {
               "Telegram": "advantage|Со всеми, с вашими контактами, ни с кем",
-              "Viber": "mediocrity|Включен/выключен",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Включен/выключен"
             }
           },
           {
@@ -3554,16 +3252,13 @@
           {
             "FeatureName": "Добавление Групп в Исключения",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/privacy-discussions-web-bots)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/privacy-discussions-web-bots)"
             }
           },
           {
             "FeatureName": "Статус Обмена Геоданными",
             "Values": {
               "Telegram": "advantage|Отображается в панели уведомлений",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
           },
@@ -3580,7 +3275,7 @@
             "Values": {
               "Telegram": "mediocrity|Ограничено конфигурацией архивных чатов",
               "Viber": "advantage|Изменение, сброс PIN, поддержка Touch ID для iOS",
-              "WhatsApp": "disadvantage|Ограничено конфигурацией архивных чатов (без защиты кодом блокировки) "
+              "WhatsApp": "disadvantage|Ограничено конфигурацией архивных чатов (без защиты кодом блокировки)"
             }
           },
           {
@@ -3595,7 +3290,6 @@
             "FeatureName": "Двухэтапная Проверка",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Поддерживается (только 6-значный PIN)"
             }
           },
@@ -3610,49 +3304,37 @@
           {
             "FeatureName": "Удаление Облачных Черновиков",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Параметры Автоматического Удаления Аккаунта",
             "Values": {
-              "Telegram": "advantage|Поддерживаются",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Поддерживаются"
             }
           },
           {
             "FeatureName": "Конфигурация Сервиса Подтверждение Личности",
             "Values": {
-              "Telegram": "advantage|Доступна (все параметры Telegram Passport)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Доступна (все параметры Telegram Passport)"
             }
           },
           {
             "FeatureName": "Удаление Данных Поставок и Платежей",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Контроль Веб Авторизации через Мессенджер",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Удаление Синхронизированных Контактов",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
@@ -3674,25 +3356,21 @@
           {
             "FeatureName": "Предложения Частых Контактов",
             "Values": {
-              "Telegram": "advantage|Включены/выключены",
-              "Viber": "disadvantage|Не поддерживаются",
-              "WhatsApp": "disadvantage|Не поддерживаются"
+              "Telegram": "advantage|Включены/выключены"
             }
           },
           {
             "FeatureName": "Секретные Чаты: Поставщик Миниатюр Карт",
             "Values": {
               "Telegram": "advantage|Миниатюры от Telegram, Google или выключены",
-              "Viber": "disadvantage|Конфигурация не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|Конфигурация не поддерживается"
             }
           },
           {
             "FeatureName": "Секретные Чаты: Предварительный Просмотр Ссылок",
             "Values": {
               "Telegram": "advantage|Выключен/включен",
-              "Viber": "disadvantage|Конфигурация не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|Конфигурация не поддерживается"
             }
           },
           {
@@ -3707,7 +3385,6 @@
             "FeatureName": "Отчет Об Учетной Записи",
             "Values": {
               "Telegram": "advantage|Через расширенный экспорт данных",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
           },
@@ -3744,14 +3421,13 @@
             "FeatureName": "Использование Хранилища: Период Хранение Медиа",
             "Values": {
               "Telegram": "advantage|Всегда, месяц, неделю или 3 дня",
-              "Viber": "mediocrity|Для видео и голосовых сообщений в течение 14 дней (Включен/выключен) ",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "mediocrity|Для видео и голосовых сообщений в течение 14 дней (Включен/выключен)"
             }
           },
           {
             "FeatureName": "Использование Хранилища: Очистка кэша",
             "Values": {
-              "Telegram": "advantage|Доступное по типам содержания (возможна очистка отдельных каналов из контекстного меню) ",
+              "Telegram": "advantage|Доступное по типам содержания (возможна очистка отдельных каналов из контекстного меню)",
               "Viber": "disadvantage|Только видео и голосовые сообщения",
               "WhatsApp": "advantage|Доступное по чатами и типами содержания"
             }
@@ -3759,32 +3435,26 @@
           {
             "FeatureName": "Использование Хранилища: Очистка Локальных Данных",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается"
             }
           },
           {
             "FeatureName": "Использование Хранилища: Быстрый Мониторинг Памяти",
             "Values": {
-              "Telegram": "advantage|[Доступен (Android, iOS)](https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance)",
-              "Viber": "disadvantage|Недоступен",
-              "WhatsApp": "disadvantage|Недоступен"
+              "Telegram": "advantage|[Доступен (Android, iOS)](https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance)"
             }
           },
           {
             "FeatureName": "Потребление Трафика: Типы Подключения",
             "Values": {
               "Telegram": "advantage|Мобильное, Wi-Fi, роуминг",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Общая статистика, роуминг"
             }
           },
           {
             "FeatureName": "Потребление Трафика: Типы данных",
             "Values": {
-              "Telegram": "advantage|Фото, видео, голосовые / видеосообщения, файлы, вызовы, сообщения и другие данные, всего ",
-              "Viber": "disadvantage|Не поддерживается",
+              "Telegram": "advantage|Фото, видео, голосовые / видеосообщения, файлы, вызовы, сообщения и другие данные, всего",
               "WhatsApp": "mediocrity|Вызовы, медиа, Google Drive, сообщение, статус, всего"
             }
           },
@@ -3792,7 +3462,6 @@
             "FeatureName": "Потребление Трафика: Статистика",
             "Values": {
               "Telegram": "advantage|Количество/объем/продолжительность входящих/исходящих данных по предварительной классификации",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Объем входящих/исходящих данных по предварительным типами"
             }
           },
@@ -3800,7 +3469,6 @@
             "FeatureName": "Потребление Трафика: Сброс Статистики",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
           },
@@ -3816,32 +3484,26 @@
             "FeatureName": "Автозагрузка Медиа: Предыдущая Конфигурация",
             "Values": {
               "Telegram": "advantage|Автозагрузка Включен/выключен, коэффициент Потребления Трафика",
-              "Viber": "mediocrity|Включен/выключен",
-              "WhatsApp": "disadvantage|Недоступно"
+              "Viber": "mediocrity|Включен/выключен"
             }
           },
           {
             "FeatureName": "Автозагрузка Медиа: Умная Конфигурация Коэффициент Потребления",
             "Values": {
-              "Telegram": "advantage|Поддерживается (на основе особенностей сетевых тарифов отдельных стран) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (на основе особенностей сетевых тарифов отдельных стран)"
             }
           },
           {
             "FeatureName": "Автозагрузка Медиа: По Типам Данных",
             "Values": {
               "Telegram": "advantage|Фото, Видео, Файлы",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Фото, Аудио, Видео, Документы"
             }
           },
           {
             "FeatureName": "Автозагрузка Медиа: По Видам Чатов",
             "Values": {
-              "Telegram": "advantage|Выбор для отдельных типов данных",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Выбор для отдельных типов данных"
             }
           },
           {
@@ -3863,17 +3525,13 @@
           {
             "FeatureName": "Автозапуск",
             "Values": {
-              "Telegram": "advantage|Для GIF, видео и видеосообщений",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Для GIF, видео и видеосообщений"
             }
           },
           {
             "FeatureName": "Потоковое Воспроизведение",
             "Values": {
-              "Telegram": "advantage|Для видео, видео сообщений и аудиофайлов",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Для видео, видео сообщений и аудиофайлов"
             }
           },
           {
@@ -3887,9 +3545,8 @@
           {
             "FeatureName": "Экономия Мобильных Данных",
             "Values": {
-              "Telegram": "advantage|В рамках разумной конфигурации, а также оптимизаций архитектуры Telegram ",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|В рамках разумной конфигурации, а также оптимизаций архитектуры Telegram",
+              "Viber": "advantage|Поддерживается"
             }
           },
           {
@@ -3903,7 +3560,7 @@
           {
             "FeatureName": "Настройка Меню Обмена iOS",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/verifiable-apps-and-more#share-sheet-settings) ",
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/verifiable-apps-and-more#share-sheet-settings)",
               "Viber": "disadvantage|Конфигурация не поддерживается",
               "WhatsApp": "disadvantage|Конфигурация не поддерживается"
             }
@@ -3928,16 +3585,14 @@
             "FeatureName": "Настройка Прокси: Параметры Использования",
             "Values": {
               "Telegram": "advantage|Да/нет, использование для вызовов (да/нет)",
-              "Viber": "disadvantage|Конфигурация не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "disadvantage|Конфигурация не поддерживается"
             }
           },
           {
             "FeatureName": "Настройка Прокси: Добавление Новых",
             "Values": {
               "Telegram": "advantage|Поддерживание типов SOCKS5 и шифрованного MTProto",
-              "Viber": "advantage|Поддерживается, различных видов",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается, различных видов"
             }
           }
         ]
@@ -3948,9 +3603,7 @@
           {
             "FeatureName": "Создание Новых Тем",
             "Values": {
-              "Telegram": "advantage|С настройкой десятков параметров и поддержкой [градиентов](https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0) ",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|С настройкой десятков параметров и поддержкой [градиентов](https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0)"
             }
           },
           {
@@ -3965,16 +3618,13 @@
             "FeatureName": "Изменение Размера Сообщений",
             "Values": {
               "Telegram": "advantage|Поддерживается (с указанием размера)",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "mediocrity|Поддерживается (малый, средний, большой)"
             }
           },
           {
             "FeatureName": "Изменение Иконки Приложения",
             "Values": {
-              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#theme-picker-and-icon-style) (на iOS)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#theme-picker-and-icon-style) (на iOS)"
             }
           },
           {
@@ -3988,7 +3638,7 @@
           {
             "FeatureName": "Изменение Радиуса Углов Сообщений",
             "Values": {
-              "Telegram": "advantage| [Поддерживается](https://telegram.org/blog/polls-2-0-vmq#message-corners) ",
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/polls-2-0-vmq#message-corners)",
               "Viber": "disadvantage|Конфигурация не поддерживается",
               "WhatsApp": "disadvantage|Конфигурация не поддерживается"
             }
@@ -3996,7 +3646,7 @@
           {
             "FeatureName": "Показать Список Чатов",
             "Values": {
-              "Telegram": "advantage|Изменение [ количества строк текста](https://telegram.org/blog/archive-and-new-design#more-info-at-a-glance) ",
+              "Telegram": "advantage|Изменение [ количества строк текста](https://telegram.org/blog/archive-and-new-design#more-info-at-a-glance)",
               "Viber": "disadvantage|Конфигурация не поддерживается",
               "WhatsApp": "disadvantage|Конфигурация не поддерживается"
             }
@@ -4020,9 +3670,7 @@
           {
             "FeatureName": "Прямое Распространение",
             "Values": {
-              "Telegram": "advantage|Для выбора недавних чатов в меню распространения Android",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Для выбора недавних чатов в меню распространения Android"
             }
           },
           {
@@ -4060,9 +3708,7 @@
           {
             "FeatureName": "Единица Расстояния",
             "Values": {
-              "Telegram": "advantage|Автоматически, километр, миля",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Автоматически, километр, миля"
             }
           },
           {
@@ -4076,17 +3722,14 @@
           {
             "FeatureName": "Стикеры и Маски: Зацикливание Анимированных Стикеров",
             "Values": {
-              "Telegram": "advantage|Включен/выключен",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Включен/выключен"
             }
           },
           {
             "FeatureName": "Стикеры и Маски: Просмотр Популярных Стикеров",
             "Values": {
               "Telegram": "advantage|Поддерживается (с возможностью добавления)",
-              "Viber": "advantage|Через магазин",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Через магазин"
             }
           },
           {
@@ -4100,9 +3743,7 @@
           {
             "FeatureName": "Стикеры и Маски: Маски",
             "Values": {
-              "Telegram": "advantage|Просмотр, изменение последовательности, архивирования и извлечения",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Просмотр, изменение последовательности, архивирования и извлечения"
             }
           },
           {
@@ -4125,8 +3766,7 @@
             "FeatureName": "Перевод Сообщений",
             "Values": {
               "Telegram": "mediocrity|В рамках настроек ботов для перевода",
-              "Viber": "advantage|Поддерживается (выбор языка)",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Viber": "advantage|Поддерживается (выбор языка)"
             }
           },
           {
@@ -4140,8 +3780,7 @@
           {
             "FeatureName": "Экспорт Чатов",
             "Values": {
-              "Telegram": "advantage|Гибкий и контролируемый, всех или отдельных в JSON/HTML (на Telegram Desktop) ",
-              "Viber": "disadvantage|Не поддерживается",
+              "Telegram": "advantage|Гибкий и контролируемый, всех или отдельных в JSON/HTML (на Telegram Desktop)",
               "WhatsApp": "mediocrity|В текстовый файл с поддержкой отдельных медиа файлов"
             }
           },
@@ -4149,7 +3788,6 @@
             "FeatureName": "Архивирование Всех Чатов",
             "Values": {
               "Telegram": "advantage|Через выделение чатов в списке для архивирования",
-              "Viber": "disadvantage|Не поддерживается",
               "WhatsApp": "advantage|Поддерживается"
             }
           },
@@ -4158,13 +3796,12 @@
             "Values": {
               "Telegram": "advantage|Поддерживается, для нескольких чатов (через их выделения)",
               "Viber": "mediocrity|Очистка всех своих сообщений",
-              "WhatsApp": "advantage|Очистка и удаление всех чатов, за исключением групп или всех сообщений "
+              "WhatsApp": "advantage|Очистка и удаление всех чатов, за исключением групп или всех сообщений"
             }
           },
           {
             "FeatureName": "Прием Видео Звонков",
             "Values": {
-              "Telegram": "disadvantage|Не поддерживается",
               "Viber": "advantage|Включен/выключен",
               "WhatsApp": "disadvantage|Конфигурация не поддерживается"
             }
@@ -4180,9 +3817,7 @@
           {
             "FeatureName": "Проверка Правописания",
             "Values": {
-              "Telegram": "advantage|Поддерживается (Telegram Desktop)",
-              "Viber": "disadvantage|Не поддерживается",
-              "WhatsApp": "disadvantage|Не поддерживается"
+              "Telegram": "advantage|Поддерживается (Telegram Desktop)"
             }
           }
         ]
@@ -4195,7 +3830,7 @@
             "Values": {
               "Telegram": "advantage|Поддерживается",
               "Viber": "advantage|Поддерживается",
-              "WhatsApp": "mediocrity|Только язык системы (для некоторых стран доступен выбор между несколькими языками) "
+              "WhatsApp": "mediocrity|Только язык системы (для некоторых стран доступен выбор между несколькими языками)"
             }
           }
         ]

@@ -54,6 +54,9 @@
                         {
                             aspectRowspan = aspect.Features.Count();
                             aspectWasAdded = false;
+                            bool TelegramFeaturesPresent = aspect.AreTelegramFeaturesPresent();
+                            bool ViberFeaturesPresent = aspect.AreViberFeaturesPresent();
+                            bool WhatsAppFeaturesPresent = aspect.AreWhatsAppFeaturesPresent();
 
                             foreach(var feature in aspect.Features)
                             {
@@ -75,37 +78,64 @@
                                         @feature.FeatureName.ToHtml()
                                     </td>
 
+
                                     @if(@feature.Values.Telegram != null) 
                                     {
                                         (score, value) =  @feature.Values.Telegram.GetScoreValue();
                                         <td class="@score">@value</td>
-                                    } 
-                                    else if(!aspectWasAdded && @aspect.Values.Telegram != null)
+                                    }
+                                    else if(TelegramFeaturesPresent && @feature.Values.Telegram == null) 
+                                    {
+                                        <td class="disadvantage">&#8212;</td>
+                                    }
+                                    else if(!aspectWasAdded && !TelegramFeaturesPresent && @aspect.Values?.Telegram != null)
                                     {
                                         (score, value) =  @aspect.Values.Telegram.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
                                     }
+                                    else if(!aspectWasAdded && !TelegramFeaturesPresent && @aspect.Values?.Telegram == null) 
+                                    {
+                                        <td class="disadvantage" rowspan="@aspectRowspan">&#8212;</td>
+                                    }
+
 
                                     @if(@feature.Values.Viber != null) 
                                     {
                                         (score, value) = @feature.Values.Viber.GetScoreValue();
                                         <td class="@score">@value</td>
-                                    } 
-                                    else if(!aspectWasAdded && @aspect.Values.Viber != null)
+                                    }
+                                    else if(ViberFeaturesPresent && @feature.Values.Viber == null) 
+                                    {
+                                        <td class="disadvantage">&#8212;</td>
+                                    }
+                                    else if(!aspectWasAdded && !ViberFeaturesPresent && @aspect.Values?.Viber != null)
                                     {
                                         (score, value) = @aspect.Values.Viber.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
                                     }
+                                    else if(!aspectWasAdded && !ViberFeaturesPresent && @aspect.Values?.Viber == null) 
+                                    {
+                                        <td class="disadvantage" rowspan="@aspectRowspan">&#8212;</td>
+                                    }
+
 
                                     @if(@feature.Values.WhatsApp != null) 
                                     {
                                         (score, value) = @feature.Values.WhatsApp.GetScoreValue();
                                         <td class="@score">@value</td>
-                                    } 
-                                    else if(!aspectWasAdded && @aspect.Values.WhatsApp != null)
+                                    }
+                                    else if(WhatsAppFeaturesPresent && @feature.Values.WhatsApp == null) 
+                                    {
+                                        <td class="disadvantage">&#8212;</td>
+                                    }
+                                    else if(!aspectWasAdded && !WhatsAppFeaturesPresent && @aspect.Values?.WhatsApp != null)
                                     {
                                         (score, value) = @aspect.Values.WhatsApp.GetScoreValue();
                                         <td class="@score" rowspan="@aspectRowspan">@value</td>
+                                    }
+                                    else if(!aspectWasAdded && !WhatsAppFeaturesPresent && @aspect.Values?.WhatsApp == null) 
+                                    {
+                                        <td class="disadvantage" rowspan="@aspectRowspan">&#8212;</td>
                                     }
 
                                     @{groupWasAdded = true;}

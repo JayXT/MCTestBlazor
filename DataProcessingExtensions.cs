@@ -38,6 +38,30 @@ namespace MessengerComparison
                 return (array[0], s.Remove(0, array[0].Length + 1).ToHtml());
             }
         }
+
+        public static bool AreTelegramFeaturesPresent(this Aspect aspect) 
+        {
+            foreach(var feature in aspect.Features)
+                if(!string.IsNullOrEmpty(feature.Values.Telegram))
+                    return true;
+            return false;
+        }
+
+        public static bool AreViberFeaturesPresent(this Aspect aspect) 
+        {
+            foreach(var feature in aspect.Features)
+                if(!string.IsNullOrEmpty(feature.Values.Viber))
+                    return true;
+            return false;
+        }
+
+        public static bool AreWhatsAppFeaturesPresent(this Aspect aspect) 
+        {
+            foreach(var feature in aspect.Features)
+                if(!string.IsNullOrEmpty(feature.Values.WhatsApp))
+                    return true;
+            return false;
+        }
         
     }
 }
