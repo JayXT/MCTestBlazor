@@ -42,7 +42,7 @@ namespace MessengerComparison
         public static bool AreTelegramFeaturesPresent(this Aspect aspect) 
         {
             foreach(var feature in aspect.Features)
-                if(!string.IsNullOrEmpty(feature.Values.Telegram))
+                if(!string.IsNullOrEmpty(feature.Telegram))
                     return true;
             return false;
         }
@@ -50,7 +50,7 @@ namespace MessengerComparison
         public static bool AreViberFeaturesPresent(this Aspect aspect) 
         {
             foreach(var feature in aspect.Features)
-                if(!string.IsNullOrEmpty(feature.Values.Viber))
+                if(!string.IsNullOrEmpty(feature.Viber))
                     return true;
             return false;
         }
@@ -58,7 +58,7 @@ namespace MessengerComparison
         public static bool AreWhatsAppFeaturesPresent(this Aspect aspect) 
         {
             foreach(var feature in aspect.Features)
-                if(!string.IsNullOrEmpty(feature.Values.WhatsApp))
+                if(!string.IsNullOrEmpty(feature.WhatsApp))
                     return true;
             return false;
         }
