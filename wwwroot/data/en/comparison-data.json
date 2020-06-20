@@ -763,25 +763,31 @@
             }
           },
           {
-            "FeatureName": "Drawing on Images",
+            "FeatureName": "Drawing on Media",
             "Values": {
               "Telegram": "advantage|Supported",
-              "Viber": "advantage|Supported",
-              "WhatsApp": "advantage|Supported"
+              "Viber": "mediocrity|On images only",
+              "WhatsApp": "mediocrity|On images only"
             }
           },
           {
             "FeatureName": "Adding Masks, Stickers, Text",
             "Values": {
-              "Telegram": "advantage|Supported",
-              "Viber": "mediocrity|Masks aren't supported",
-              "WhatsApp": "disadvantage|Text only"
+              "Telegram": "advantage|To images and videos",
+              "Viber": "disadvantage|Only to images (except for masks)",
+              "WhatsApp": "disadvantage|Only to images, text only"
             }
           },
           {
-            "FeatureName": "Image Correction",
+            "FeatureName": "Adding Animated Stickers",
             "Values": {
-              "Telegram": "advantage|Supported"
+              "Telegram": "advantage|To [images and videos](https://telegram.org/blog/video-editor-gifs#animated-stickers-on-media)"
+            }
+          },
+          {
+            "FeatureName": "Media Correction",
+            "Values": {
+              "Telegram": "advantage|For images and videos"
             }
           },
           {
@@ -800,7 +806,7 @@
           {
             "FeatureName": "Curves Tool",
             "Values": {
-              "Telegram": "advantage|Supported"
+              "Telegram": "advantage|For images and videos"
             }
           },
           {
@@ -1039,7 +1045,7 @@
           {
             "FeatureName": "Operations with Multiple Chats Simultaneously",
             "Values": {
-              "Telegram": "advantage|Pinning/unpinning, (un)archiving, deleting, clearing history, cache, marking as read/unread, enabling/disabling notifications"
+              "Telegram": "advantage|Pinning/unpinning, (un)archiving, deleting, clearing history, cache, marking as read/unread, enabling/disabling notifications, adding/removing from folder"
             }
           },
           {
@@ -1973,8 +1979,8 @@
           {
             "FeatureName": "Number of Participants",
             "Values": {
-              "Viber": "advantage|Up to 5 participants",
-              "WhatsApp": "mediocrity|Up to 4 participants (mobile devices only)"
+              "Viber": "advantage|Up to 20 participants",
+              "WhatsApp": "mediocrity|Up to 8 participants (mobile devices only)"
             }
           },
           {
@@ -2024,7 +2030,7 @@
           {
             "FeatureName": "Number of Participants",
             "Values": {
-              "WhatsApp": "advantage|Up to 4 participants (mobile devices only)"
+              "WhatsApp": "advantage|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
             }
           },
           {
@@ -2067,7 +2073,7 @@
           {
             "FeatureName": "Via",
             "Values": {
-              "Telegram": "advantage|Bots or [independent websites](https://tlgrm.eu/channels)",
+              "Telegram": "advantage|Integrated means ([GIF](https://telegram.org/blog/video-editor-gifs#speaking-of-gifs), [stickers](https://telegram.org/blog/400-million#20-000-stickers)), bots or [independent websites](https://tlgrm.eu/channels)",
               "Viber": "advantage|[Discover](https://discover.viber.com/)"
             }
           }
@@ -2223,6 +2229,13 @@
               "Viber": "advantage|Supported (via extensions)",
               "WhatsApp": "advantage|Supported"
             }
+          },
+          {
+            "FeatureName": "Via Popular Emoji",
+            "Values": {
+              "Telegram": "advantage|[Supported](https://telegram.org/blog/video-editor-gifs#speaking-of-gifs)",
+              "Viber": "advantage|Using extension with search by key tags"
+            }
           }
         ]
       },
@@ -2362,6 +2375,12 @@
             "FeatureName": "Quick Video Playback in Full-Screen Mode",
             "Values": {
               "Telegram": "advantage|Via screen rotation"
+            }
+          },
+          {
+            "FeatureName": "Scaling in Media Editor",
+            "Values": {
+              "Telegram": "advantage|For drawing"
             }
           }
         ]
@@ -2628,19 +2647,25 @@
           {
             "FeatureName": "Concept",
             "Values": {
-              "Telegram": "advantage|Creation and editing of global [quizzes](https://telegram.org/blog/400-million#better-quizzes)"
+              "Telegram": "advantage|Creation, editing, discovery and participation in global [quizzes](https://telegram.org/blog/400-million#better-quizzes)"
             }
           },
           {
             "FeatureName": "Implementation",
             "Values": {
-              "Telegram": "advantage|Combining a set of polls with correct answers into quizzes with support for sharing and participation via [@quizbot](https://t.me/quizbot)"
+              "Telegram": "advantage|Combining a set of polls with correct answers into quizzes with support for spreading via bot"
+            }
+          },
+          {
+            "FeatureName": "Interaction Via",
+            "Values": {
+              "Telegram": "advantage|[@quizbot](https://t.me/quizbot), [quiz.directory](https://quiz.directory) website, groups, channels"
             }
           },
           {
             "FeatureName": "Main Features",
             "Values": {
-              "Telegram": "advantage|Interaction via bot, groups, channels; support for global stats, explanations, timers, question shuffling"
+              "Telegram": "advantage|Global stats, explanations, timers, question shuffling"
             }
           },
           {

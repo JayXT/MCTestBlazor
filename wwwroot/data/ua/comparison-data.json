@@ -768,25 +768,31 @@
             }
           },
           {
-            "FeatureName": "Малювання на Зображеннях",
+            "FeatureName": "Малювання на Медіа",
             "Values": {
               "Telegram": "advantage|Підтримується",
-              "Viber": "advantage|Підтримується",
-              "WhatsApp": "advantage|Підтримується"
+              "Viber": "mediocrity|Лише на зображеннях",
+              "WhatsApp": "mediocrity|Лише на зображеннях"
             }
           },
           {
             "FeatureName": "Додавання Масок, Стікерів, Тексту",
             "Values": {
-              "Telegram": "advantage|Підтримується",
-              "Viber": "mediocrity|Не підтримуються маски",
-              "WhatsApp": "disadvantage|Лише текст"
+              "Telegram": "advantage|До зображень та відео",
+              "Viber": "disadvantage|Лише до зображень (окрім масок)",
+              "WhatsApp": "disadvantage|Лише до зображень, лише текст"
             }
           },
           {
-            "FeatureName": "Корекція Зображень",
+            "FeatureName": "Додавання Анімованих Стікерів",
             "Values": {
-              "Telegram": "advantage|Підтримується"
+              "Telegram": "advantage|До [зображень та відео](https://telegram.org/blog/video-editor-gifs#animated-stickers-on-media)"
+            }
+          },
+          {
+            "FeatureName": "Корекція Медіа",
+            "Values": {
+              "Telegram": "advantage|Для зображень та відео"
             }
           },
           {
@@ -805,7 +811,7 @@
           {
             "FeatureName": "Інструмент Кривих",
             "Values": {
-              "Telegram": "advantage|Підтримується"
+              "Telegram": "advantage|Для зображень та відео"
             }
           },
           {
@@ -1044,7 +1050,7 @@
           {
             "FeatureName": "Операції з Кількома Чатами Водночас",
             "Values": {
-              "Telegram": "advantage|Прикріплення/відкріплення, (роз)архівування, видалення, очистка історії, кешу, позначення прочитаними/непрочитаними, увімкнення/вимкнення сповіщень"
+              "Telegram": "advantage|Прикріплення/відкріплення, (роз)архівування, видалення, очистка історії, кешу, позначення прочитаними/непрочитаними, увімкнення/вимкнення сповіщень, додавання/видалення з папки"
             }
           },
           {
@@ -1978,8 +1984,8 @@
           {
             "FeatureName": "Кількість Учасників",
             "Values": {
-              "Viber": "advantage|До 5 учасників",
-              "WhatsApp": "mediocrity|До 4 учасників (виключно на смартфонах)"
+              "Viber": "advantage|До 20 учасників",
+              "WhatsApp": "mediocrity|До 8 учасників (виключно на смартфонах)"
             }
           },
           {
@@ -2029,7 +2035,7 @@
           {
             "FeatureName": "Кількість Учасників",
             "Values": {
-              "WhatsApp": "advantage|До 4 учасників (виключно на смартфонах)"
+              "WhatsApp": "advantage|До 8 учасників (на смартфонах та [Facebook Portal](https://portal.facebook.com/))"
             }
           },
           {
@@ -2072,7 +2078,7 @@
           {
             "FeatureName": "Через",
             "Values": {
-              "Telegram": "advantage|Ботів чи [незалежні сайти](https://tlgrm.ru/channels)",
+              "Telegram": "advantage|Інтегровані засоби ([GIF](https://telegram.org/blog/video-editor-gifs#speaking-of-gifs), [стікери](https://telegram.org/blog/400-million#20-000-stickers)), ботів чи [незалежні сайти](https://tlgrm.ru/channels)",
               "Viber": "advantage|[Discover](https://discover.viber.com/)"
             }
           }
@@ -2228,6 +2234,13 @@
               "Viber": "advantage|Підтримується (через розширення)",
               "WhatsApp": "advantage|Підтримується"
             }
+          },
+          {
+            "FeatureName": "За Популярними Емоджі",
+            "Values": {
+              "Telegram": "advantage|[Підтримується](https://telegram.org/blog/video-editor-gifs#speaking-of-gifs)",
+              "Viber": "advantage|Через розширення з пошуком за ключовими тегами"
+            }
           }
         ]
       },
@@ -2367,6 +2380,12 @@
             "FeatureName": "Швидке Відтворення Відео в Повноекранному Режимі",
             "Values": {
               "Telegram": "advantage|Через поворот екрану"
+            }
+          },
+          {
+            "FeatureName": "Масштабування в Редакторі Медіа",
+            "Values": {
+              "Telegram": "advantage|При малюванні"
             }
           }
         ]
@@ -2633,19 +2652,25 @@
           {
             "FeatureName": "Концепція",
             "Values": {
-              "Telegram": "advantage|Створення та редагування глобальних [вікторин](https://telegram.org/blog/400-million#better-quizzes)"
+              "Telegram": "advantage|Створення, редагування, відкриття та участь в глобальних [вікторинах](https://telegram.org/blog/400-million#better-quizzes)"
             }
           },
           {
             "FeatureName": "Реалізація",
             "Values": {
-              "Telegram": "advantage|Об'єднання набору опитувань з правильними відповідями у вікторини з підтримкою обміну та участі через бота [@quizbot](https://t.me/quizbot)"
+              "Telegram": "advantage|Об'єднання набору опитувань з правильними відповідями у вікторини з підтримкою поширення через бота"
+            }
+          },
+          {
+            "FeatureName": "Взаємодія Через",
+            "Values": {
+              "Telegram": "advantage|[@quizbot](https://t.me/quizbot), сайт [quiz.directory](https://quiz.directory), групи, канали"
             }
           },
           {
             "FeatureName": "Основні Можливості",
             "Values": {
-              "Telegram": "advantage|Взаємодія через бота, групи, канали; підтримка глобальної статистики, пояснень, таймерів, перемішування запитань;"
+              "Telegram": "advantage|Глобальна статистика, пояснення, таймери, перемішування запитань"
             }
           },
           {

@@ -768,25 +768,31 @@
             }
           },
           {
-            "FeatureName": "Рисование на Изображении",
+            "FeatureName": "Рисование на Медиа",
             "Values": {
               "Telegram": "advantage|Поддерживается",
-              "Viber": "advantage|Поддерживается",
-              "WhatsApp": "advantage|Поддерживается"
+              "Viber": "mediocrity|Только на изображениях",
+              "WhatsApp": "mediocrity|Только на изображениях"
             }
           },
           {
             "FeatureName": "Добавление Масок, Стикеров, Текста",
             "Values": {
-              "Telegram": "advantage|Поддерживается",
-              "Viber": "mediocrity|Не поддерживаются маски",
-              "WhatsApp": "disadvantage|Только текст"
+              "Telegram": "advantage|К изображениям и видео",
+              "Viber": "disadvantage|Только к изображениям (кроме масок)",
+              "WhatsApp": "disadvantage|Только к изображениям, только текст"
             }
           },
           {
-            "FeatureName": "Коррекция Изображений",
+            "FeatureName": "Добавление Анимированных Стикеров",
             "Values": {
-              "Telegram": "advantage|Поддерживается"
+              "Telegram": "advantage|К [изображениям и видео](https://telegram.org/blog/video-editor-gifs#animated-stickers-on-media)"
+            }
+          },
+          {
+            "FeatureName": "Коррекция Медиа",
+            "Values": {
+              "Telegram": "advantage|Для изображений и видео"
             }
           },
           {
@@ -805,7 +811,7 @@
           {
             "FeatureName": "Инструмент Кривых",
             "Values": {
-              "Telegram": "advantage|Поддерживается"
+              "Telegram": "advantage|Для изображений и видео"
             }
           },
           {
@@ -1044,7 +1050,7 @@
           {
             "FeatureName": "Операции с Несколькими Чатами одновременно",
             "Values": {
-              "Telegram": "advantage|Прикрепление/открепление, (раз)архивирования, удаления, очистка истории, кэша, обозначения прочитанными/непрочитанными, включения/выключения уведомлений"
+              "Telegram": "advantage|Прикрепление/открепление, (раз)архивирования, удаления, очистка истории, кэша, обозначения прочитанными/непрочитанными, включения/выключения уведомлений, добавление/удаление из папки"
             }
           },
           {
@@ -1978,8 +1984,8 @@
           {
             "FeatureName": "Количество Участников",
             "Values": {
-              "Viber": "advantage|До 5 участников",
-              "WhatsApp": "mediocrity|До 4 участников (исключительно на смартфонах)"
+              "Viber": "advantage|До 20 участников",
+              "WhatsApp": "mediocrity|До 8 участников (исключительно на смартфонах)"
             }
           },
           {
@@ -2029,7 +2035,7 @@
           {
             "FeatureName": "Количество Участников",
             "Values": {
-              "WhatsApp": "advantage|До 4 участников (исключительно на смартфонах)"
+              "WhatsApp": "advantage|До 8 участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
             }
           },
           {
@@ -2072,7 +2078,7 @@
           {
             "FeatureName": "Через",
             "Values": {
-              "Telegram": "advantage|Ботов или [независимые сайты](https://tlgrm.ru/channels)",
+              "Telegram": "advantage|Интегрированные средства ([GIF](https://telegram.org/blog/video-editor-gifs#speaking-of-gifs), [стикеры](https://telegram.org/blog/400-million#20-000-stickers)), ботов или [независимые сайты](https://tlgrm.ru/channels)",
               "Viber": "advantage|[Discover](https://discover.viber.com/)"
             }
           }
@@ -2228,6 +2234,13 @@
               "Viber": "advantage|Поддерживается (через расширения)",
               "WhatsApp": "advantage|Поддерживается"
             }
+          },
+          {
+            "FeatureName": "По Популярным Эмодзи",
+            "Values": {
+              "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/video-editor-gifs#speaking-of-gifs)",
+              "Viber": "advantage|Через расширения с поиском по ключевым тегам"
+            }
           }
         ]
       },
@@ -2367,6 +2380,12 @@
             "FeatureName": "Быстрое Воспроизведение Видео в Полноэкранном Режиме",
             "Values": {
               "Telegram": "advantage|Через поворот экрана"
+            }
+          },
+          {
+            "FeatureName": "Масштабирование в Редакторе Медиа",
+            "Values": {
+              "Telegram": "advantage|При рисовании"
             }
           }
         ]
@@ -2633,19 +2652,25 @@
           {
             "FeatureName": "Концепция",
             "Values": {
-              "Telegram": "advantage|Создание и редактирование глобальных [викторин](https://telegram.org/blog/400-million#better-quizzes)"
+              "Telegram": "advantage|Создание, редактирование, открытие и участие в глобальных [викторинах](https://telegram.org/blog/400-million#better-quizzes)"
             }
           },
           {
             "FeatureName": "Реализация",
             "Values": {
-              "Telegram": "advantage|Объединение набора опросов с правильными ответами в викторине с поддержкой обмена и участия через бота [@quizbot](https://t.me/quizbot)"
+              "Telegram": "advantage|Объединение набора опросов с правильными ответами в викторине с поддержкой распространения через бота"
+            }
+          },
+          {
+            "FeatureName": "Взаимодействие Через",
+            "Values": {
+              "Telegram": "advantage|[@quizbot](https://t.me/quizbot), сайт [quiz.directory](https://quiz.directory), группы, каналы"
             }
           },
           {
             "FeatureName": "Основные Возможности",
             "Values": {
-              "Telegram": "advantage|Взаимодействие через бота, группы, каналы; поддержка глобальной статистики, пояснений, таймеров, перемешивания вопросов;"
+              "Telegram": "advantage|Глобальная статистика, пояснения, таймеры, перемешивание вопросов"
             }
           },
           {
