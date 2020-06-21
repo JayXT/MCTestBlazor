@@ -6,6 +6,7 @@
     "Telegram": "Telegram",
     "Viber": "Viber",
     "WhatsApp": "WhatsApp",
-    "Updated": "Перевод обновлен: ",
+    "UpdatedText": "Перевод обновлен:",
+    "UpdatedDate": "6 июня 2020 г.",
     "Author": "Автор перевода: [hookz](https://github.com/hookzof)"
 }
