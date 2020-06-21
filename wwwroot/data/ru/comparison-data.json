@@ -289,14 +289,11 @@
           {
             "FeatureName": "Наличие Веб-версии",
             "Telegram": "advantage|Есть",
-            "Viber": "disadvantage|Нет",
             "WhatsApp": "mediocrity|Есть (как дополнение к мобильному приложению)"
           },
           {
             "FeatureName": "Наличие Portable-версии",
-            "Telegram": "advantage|Есть",
-            "Viber": "disadvantage|Нет",
-            "WhatsApp": "disadvantage|Нет"
+            "Telegram": "advantage|Есть"
           },
           {
             "FeatureName": "Жесткая Привязка к Мобильным Клиентам",
@@ -312,9 +309,7 @@
           },
           {
             "FeatureName": "Поддержка Нескольких Аккаунтов",
-            "Telegram": "advantage|На iOS, Android и macOS",
-            "Viber": "disadvantage|Нет",
-            "WhatsApp": "disadvantage|Нет"
+            "Telegram": "advantage|На iOS, Android и macOS"
           },
           {
             "FeatureName": "Альтернативные Клиенты",
@@ -1028,8 +1023,7 @@
           {
             "FeatureName": "Унифицированная История Сообщений",
             "Telegram": "advantage|Да, изменения синхронизируются в режиме реального времени",
-            "Viber": "mediocrity|Только в сообществах, с ограниченной синхронизацией",
-            "WhatsApp": "disadvantage|Нет"
+            "Viber": "mediocrity|Только в сообществах, с ограниченной синхронизацией"
           },
           {
             "FeatureName": "Медленный Режим",
