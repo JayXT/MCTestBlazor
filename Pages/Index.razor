@@ -149,7 +149,7 @@
             </table>
         </div>
         <p class="updated-date">
-            @GeneralData["LastModified"]  <br> <br>
+            @GeneralData["UpdatedText"] @GeneralData["UpdatedDate"] <br><br>
             @((MarkupString)GeneralData["Author"].ToHtml())
 		</p>
 </section>
@@ -175,15 +175,9 @@
             (string.IsNullOrEmpty(Language) || !allowedLanguages.Contains(Language))
             ? "ua" : Language;
 
-        var comparisonDataResponse = await Http.GetAsync($"data/{selectedLanguage}/comparison-data.json");
-        DateTime lastModifiedDate = comparisonDataResponse.Content.Headers.LastModified.Value.DateTime;
-
         GeneralData = await Http.GetFromJsonAsync<Dictionary<string, string>>($"data/{selectedLanguage}/general-data.json");
         GeneralData["Languages"] = GetLanguages(allowedLanguages, selectedLanguage);
-        GeneralData["LastModified"] = GetLastModified(selectedLanguage, lastModifiedDate);
-
-        ComparisonData = await comparisonDataResponse.Content
-                                    .ReadFromJsonAsync<List<Group>>();
+        ComparisonData = await Http.GetFromJsonAsync<List<Group>>($"data/{selectedLanguage}/comparison-data.json");
     }
 
     public string GetLanguages(List<string> allowedLanguages, string selectedLanguage)
@@ -191,40 +185,10 @@
         var languagesHtml = string.Empty;
 
         foreach (var l in allowedLanguages)
-            if (l == selectedLanguage)
-            {
-                languagesHtml += $"<h4>{l.ToUpper()}</h4>\n";
-            }
-            else
-            {
-
-                languagesHtml += $"<a href=\"{l}\">{l.ToUpper()}</a>\n";
-            }
+                languagesHtml += (l == selectedLanguage) ?
+                 $"<h4>{l.ToUpper()}</h4>\n" : $"<a href=\"{l}\">{l.ToUpper()}</a>\n";
 
         return languagesHtml;
-    }
-
-    public string GetLastModified(string language, DateTime lastModifiedDate)
-    {
-        CultureInfo ci;
-
-        var textPrefix = GeneralData["Updated"];
-
-        switch (language)
-        {
-            case "en":
-                ci = new CultureInfo("en-US");
-                return textPrefix + lastModifiedDate.ToString(@"d \o\f MMMM, yyyy", ci);
-            case "pt":
-                ci = new CultureInfo("pt-BR");
-                return textPrefix + lastModifiedDate.ToString(@"d \d\e MMMM \d\e yyyy", ci);
-            case "ru":
-                ci = new CultureInfo("ru-RU");
-                return textPrefix + lastModifiedDate.ToString(@"d MMMM yyyy \г.", ci);
-            default:
-                ci = new CultureInfo("uk-UA");
-                return textPrefix + lastModifiedDate.ToString(@"d MMMM yyyy \р.", ci);
-        }
     }
 
     public int GetRowCount(Group group)
