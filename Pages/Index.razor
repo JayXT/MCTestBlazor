@@ -173,7 +173,7 @@
         
         var selectedLanguage =
             (string.IsNullOrEmpty(Language) || !allowedLanguages.Contains(Language))
-            ? "ua" : Language;
+            ? "uk" : Language;
 
         GeneralData = await Http.GetFromJsonAsync<Dictionary<string, string>>($"data/{selectedLanguage}/general-data.json");
         GeneralData["Languages"] = GetLanguages(allowedLanguages, selectedLanguage);
